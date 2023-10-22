@@ -1,0 +1,5 @@
+The current time is checked.
+With a recognized time deviation of up to 2 seconds, no action may be taken!
+Behavior in case of deviations of the time:
+If there is a time difference between 2 and 9 seconds, the time must be synchronized, an entry in the logbook does not take place.
+If there is a time deviation greater than 9 seconds, the time must be set and the entry in the logbook and in the load profile (counter reading with date and time and status entry) must be made. The time chronology ("numbering") of the measured values must be retained. The synchronization takes place via the WAN interface of the terminals/gateways from the central system.

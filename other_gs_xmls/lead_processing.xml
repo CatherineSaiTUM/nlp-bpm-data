@@ -1,0 +1,320 @@
+<testset xmlns="http://cpee.org/ns/properties/2.0">
+  <executionhandler>ruby</executionhandler>
+  <subscriptions xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0">
+    <subscription xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0" id="_karo" url="https://lehre.bpm.in.tum.de/ports/8000/">
+      <topic id="activity">
+        <event>calling</event>
+        <event>done</event>
+      </topic>
+    </subscription>
+  </subscriptions>
+  <dataelements/>
+  <endpoints>
+    <timeout>https://cpee.org/services/timeout.php</timeout>
+    <user>https-post://cpee.org/services/timeout-user.php</user>
+  </endpoints>
+  <attributes>
+    <info>lead_processing</info>
+    <creator>Christine Ashcreek</creator>
+    <author>Christine Ashcreek</author>
+    <modeltype>CPEE</modeltype>
+    <guarded>none</guarded>
+    <guarded_id/>
+    <model_uuid>9722dabe-7ec7-42d7-ae54-a944c3a730b3</model_uuid>
+    <model_version/>
+    <theme>extended</theme>
+    <design_dir>Logs_resources.dir</design_dir>
+    <design_stage>development</design_stage>
+  </attributes>
+  <description>
+    <description xmlns="http://cpee.org/ns/description/1.0">
+      <call id="a1" endpoint="user">
+        <parameters>
+          <label>check open leads;u;manager;u;u</label>
+          <arguments>
+            <timeout>!rand(2..5)</timeout>
+          </arguments>
+        </parameters>
+        <code>
+          <prepare/>
+          <finalize output="result"/>
+          <update output="result"/>
+          <rescue output="result"/>
+        </code>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+          <code>
+            <description/>
+          </code>
+        </documentation>
+      </call>
+      <call id="a2" endpoint="user">
+        <parameters>
+          <label>select top five leads;u;manager;u;u</label>
+          <arguments>
+            <timeout>!rand(2..4)</timeout>
+          </arguments>
+        </parameters>
+        <code>
+          <prepare/>
+          <finalize output="result">data.counter=5</finalize>
+          <update output="result"/>
+          <rescue output="result"/>
+        </code>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+          <code>
+            <description/>
+          </code>
+        </documentation>
+      </call>
+      <call id="a3" endpoint="user">
+        <parameters>
+          <label>tell sales assistant to call contact person of leads;u;manager;u;u</label>
+          <arguments>
+            <timeout>!rand(1..3)</timeout>
+          </arguments>
+        </parameters>
+        <code>
+          <prepare/>
+          <finalize output="result"/>
+          <update output="result"/>
+          <rescue output="result"/>
+        </code>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+          <code>
+            <description/>
+          </code>
+        </documentation>
+      </call>
+      <loop mode="pre_test" condition="data.counter&gt;0">
+        <_probability>
+          <_probability_min/>
+          <_probability_max/>
+          <_probability_avg/>
+        </_probability>
+        <call id="a5" endpoint="user">
+          <parameters>
+            <label>call customer;u;sales assistant;u;u</label>
+            <arguments>
+              <timeout>!rand(2..4)</timeout>
+            </arguments>
+          </parameters>
+          <code>
+            <prepare/>
+            <finalize output="result">data.interested = rand(0..1)
+data.counter = data.counter-1</finalize>
+            <update output="result"/>
+            <rescue output="result"/>
+          </code>
+          <annotations>
+            <_timing>
+              <_timing_weight/>
+              <_timing_avg/>
+              <explanations/>
+            </_timing>
+            <_shifting>
+              <_shifting_type>Duration</_shifting_type>
+            </_shifting>
+            <_context_data_analysis>
+              <probes/>
+              <ips/>
+            </_context_data_analysis>
+            <report>
+              <url/>
+            </report>
+            <_notes>
+              <_notes_general/>
+            </_notes>
+          </annotations>
+          <documentation>
+            <input/>
+            <output/>
+            <implementation>
+              <description/>
+            </implementation>
+            <code>
+              <description/>
+            </code>
+          </documentation>
+        </call>
+        <choose mode="exclusive">
+          <alternative condition="data.interested==1">
+            <_probability>
+              <_probability_min/>
+              <_probability_max/>
+              <_probability_avg/>
+            </_probability>
+            <call id="a6" endpoint="user">
+              <parameters>
+                <label>send note to manager;u;sales assistant;u;u</label>
+                <arguments>
+                  <timeout>!rand(1..2)</timeout>
+                </arguments>
+              </parameters>
+              <code>
+                <prepare/>
+                <finalize output="result"/>
+                <update output="result"/>
+                <rescue output="result"/>
+              </code>
+              <annotations>
+                <_timing>
+                  <_timing_weight/>
+                  <_timing_avg/>
+                  <explanations/>
+                </_timing>
+                <_shifting>
+                  <_shifting_type>Duration</_shifting_type>
+                </_shifting>
+                <_context_data_analysis>
+                  <probes/>
+                  <ips/>
+                </_context_data_analysis>
+                <report>
+                  <url/>
+                </report>
+                <_notes>
+                  <_notes_general/>
+                </_notes>
+              </annotations>
+              <documentation>
+                <input/>
+                <output/>
+                <implementation>
+                  <description/>
+                </implementation>
+                <code>
+                  <description/>
+                </code>
+              </documentation>
+            </call>
+            <call id="a7" endpoint="user">
+              <parameters>
+                <label>process lead;u;manager;u;u</label>
+                <arguments>
+                  <timeout>!rand(4..7)</timeout>
+                </arguments>
+              </parameters>
+              <code>
+                <prepare/>
+                <finalize output="result"/>
+                <update output="result"/>
+                <rescue output="result"/>
+              </code>
+              <annotations>
+                <_timing>
+                  <_timing_weight/>
+                  <_timing_avg/>
+                  <explanations/>
+                </_timing>
+                <_shifting>
+                  <_shifting_type>Duration</_shifting_type>
+                </_shifting>
+                <_context_data_analysis>
+                  <probes/>
+                  <ips/>
+                </_context_data_analysis>
+                <report>
+                  <url/>
+                </report>
+                <_notes>
+                  <_notes_general/>
+                </_notes>
+              </annotations>
+              <documentation>
+                <input/>
+                <output/>
+                <implementation>
+                  <description/>
+                </implementation>
+                <code>
+                  <description/>
+                </code>
+              </documentation>
+            </call>
+          </alternative>
+          <otherwise/>
+        </choose>
+      </loop>
+    </description>
+  </description>
+  <transformation>
+    <description type="copy"/>
+    <dataelements type="none"/>
+    <endpoints type="none"/>
+  </transformation>
+</testset>

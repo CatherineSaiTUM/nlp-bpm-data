@@ -1,0 +1,2 @@
+Configurable terminal parameters must be able to be changed remotely via the central system.
+e.g. Modification of the reading unit (registers, load profile, accumulation times and pre-memory depth, power quality etc.), permitted deletion commands (for example, once without calibration switch, logbooks). All EVENTs, ALARMs and logbook entries must be individually defined and set as such.

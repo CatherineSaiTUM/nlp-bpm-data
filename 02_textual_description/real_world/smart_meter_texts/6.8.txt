@@ -1,0 +1,2 @@
+The load switching on the load switching device can be done manually on site on the device.
+The relay states of the load switching device are queried remotely or a state change is transmitted as EVENT / ALARM to the control center and entered in the logbook of the terminal.

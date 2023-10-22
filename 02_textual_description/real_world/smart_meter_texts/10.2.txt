@@ -1,0 +1,2 @@
+a.) The terminal automatically re-logins to the central system after a failure of the communication connection (eg PLC-Low-voltage power failure or gateway failure).
+b.) If the re-login is done via another gateway (eg transformer station supply changes) this information has to be transmitted to the central system in the course of the operation.

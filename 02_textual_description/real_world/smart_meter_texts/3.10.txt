@@ -1,0 +1,5 @@
+The goal is to control the output interval for the customer interface (H1) - keyword: In Home Display. The meter should output the following instantaneous values: Meter reading and instantaneous power (in Watt) with date and time per energy direction - active energy (optionally also reactive energy) incl. Obiskennziffer. The output interval must be adjustable in a second grid (between 1 and 10 seconds) so that the meter readings are always output every full 1/4 hour (ie xx: 00, xx: 15, etc.). This allows comparison with the load profile registered in the meter. The output interval is set via the WAN interface of the meter.
+
+Customer wishes to change the output interval for his customer interface (H1) and inform the NB about this. As part of a daily routine, the transfer takes place on his meter.
+
+The output interval for the customer interface (H1) in the meter has been successfully set / changed.

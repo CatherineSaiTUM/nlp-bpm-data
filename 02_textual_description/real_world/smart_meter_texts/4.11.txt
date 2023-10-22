@@ -1,0 +1,2 @@
+All meters must support an update or upgrade of their software. Triggered by a command from the NB, the local download of the updated software is done on the counter. After the download, the counter first tests whether the software has been transferred completely and without error.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

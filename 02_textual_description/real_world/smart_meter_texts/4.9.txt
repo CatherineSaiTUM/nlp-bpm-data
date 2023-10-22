@@ -1,0 +1,1 @@
+It must be possible to cancel the process of the firmware update and upgrade by canceling already stored and activated firmware on-site.

@@ -1,0 +1,3 @@
+It should be possible (eg maniupation attempt) to deactivate the communication interface (WAN G1 / WAN G2) on-site using the service interface (WZ) / maintenance interface (WG) specifying a time.
+After this time (upper bound has to be specified), the terminal / gateway activates the communication interface (WAN G1 / WAN G2). Alternatively, before the end of this time the 
+Communication interface (WAN G1 / WAN G2) can be switched back on using the service interface (WZ) / maintenance interface (WG).

@@ -1,0 +1,3 @@
+a.) The meter installs the new firmware and runs a self-test on the newly installed firmware. If this fails, the last known firmware version will be reinstalled / activated on the meter, a message sent to the central system and an entry made in the logbook of the meter.
+
+b.) The meter can not establish a connection to the central system for more than 72 hours (parameterizable) (for example: meter has "hung up"). The meter installs / activates the last known firmware version, sends a mediation to the central system as ALARM or EVENT and makes an entry in the logbook. The metrological verification validity of the meter must be given after this process.

@@ -1,0 +1,4 @@
+The terminal or gateway installs the new firmware and performs a self-test on the newly installed firmware. If this fails, the last known firmware version is reinstalled or activated on the terminal or gateway, a message is sent to the central system and an entry is made in the logbook of the terminal or gateway.
+
+The terminal or gateway can not establish a connection to the central system for more than 72 hours (parameterizable) (eg: the terminal has "hung up"). The terminal or gateway installs or activates the last known firmware version, sends a mediation to the central system as ALARM or EVENT and makes an entry in the logbook.
+The metrological verification validity of the meter must be given after this process.

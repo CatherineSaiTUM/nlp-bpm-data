@@ -1,0 +1,2 @@
+For the breaker of the meter, it should be possible to configure a circuit program, divided into daily, weekly, seasonal and annual programs, taking into account weekly, holiday and special days.
+The switching programs are managed centrally and, if necessary, transferred to the desired counters. For control purposes, the circuit program must also be read-back. Any change to the circuit program, regardless of whether it is remotely executed, must be recorded in a logbook!

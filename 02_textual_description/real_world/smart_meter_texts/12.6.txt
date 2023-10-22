@@ -1,0 +1,2 @@
+The system must have a secure transmission of cryptographic parameters between the manufacturer and the
+Client.

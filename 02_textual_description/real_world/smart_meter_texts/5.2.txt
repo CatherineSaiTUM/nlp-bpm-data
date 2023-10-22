@@ -1,0 +1,2 @@
+The components generate unique event messages (type of EVENT, time and duration, time of transmission, ...), store them in the event log / logbook and transfer them in the course of the regular meter reading or at the instigation of the central system.
+Examples of security events that EVENTs can trigger are listed in the "OE Requirement Catalog End-to-End Security Smart Metering" section B.4.

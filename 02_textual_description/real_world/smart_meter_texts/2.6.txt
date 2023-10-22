@@ -1,0 +1,6 @@
+The terminal is released by a command from the central system for on-site (re) engagement.
+The activation takes place as follows. First a release command is transmitted from the central system to the terminal. The terminal indicates this condition (e.g., READY, LED, ..).
+This status is transferred to the central system as ALARM or EVENT and an entry is created in the logbook.
+Second, from this time it can be turned on directly on the control of the terminal.
+The terminal must indicate this status change (e.g., CONNECTED).
+This status is transmitted to the central system as ALARM or EVENT and an entry is made in the logbook of the terminal.

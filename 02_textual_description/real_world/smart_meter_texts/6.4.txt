@@ -1,0 +1,3 @@
+For each relay in the load switching device, an independent, independent of the other relay switching program should be configurable. It should be possible to subdivide the circuit program into daily, weekly, seasonal and annual programs taking into account weekly, holiday and special days.
+The service interface (WZ) of the load switching device must be able to change the switching program locally. For control purposes, the circuit program must also be read-back (feedback to the central system via modified circuit program, or also the corresponding note in the logbook, so for example: local switching table change).
+This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

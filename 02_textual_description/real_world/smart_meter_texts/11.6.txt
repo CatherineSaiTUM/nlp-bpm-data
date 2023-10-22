@@ -1,0 +1,1 @@
+The gateway issues an automatic re-login to the central systen after a failure of the communication connection (for example: WAN communication is interrupted or gateway outage due to power failure).

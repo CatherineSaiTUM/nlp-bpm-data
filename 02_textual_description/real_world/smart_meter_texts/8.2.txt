@@ -1,0 +1,3 @@
+It must be possible to remotely deactivate the communication interface (WAN G1 / WAN G2) in case of e.g. tampering attempt for a certain period of time.
+After this time, the terminal / gateway activates the interface again, whereby a maximum
+Upper limit for the time value has to be specified beforhand. Information must be handed over to the head office.

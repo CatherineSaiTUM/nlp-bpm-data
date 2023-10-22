@@ -1,0 +1,1 @@
+It must be possible to cancel / suspend the process of firmware update and upgrade by reversing already backed up firmware with an activation date.

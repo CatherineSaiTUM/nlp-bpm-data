@@ -1,0 +1,2 @@
+In the course of the so-called opt-out regulation, it must be possible for customers who refuse to have a smart meter installed to deactivate the load profile recording in the meter. The activation/deactivation of the load profile recording must be possible on site via the service interface (TM).
+If the customer is opt-out, it must be displayed on the counter accordingly (for example, display, LED).

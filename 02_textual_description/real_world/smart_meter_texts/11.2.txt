@@ -1,0 +1,2 @@
+The system must provide a secure remote access to the gateway which has to adhere to the end to end security definition "OE Requirement Catalog End-to-End Security Smart Metering".
+Information must be handed over to the head office! When activated «successful» and after Deactivation «successful».

@@ -1,0 +1,2 @@
+The integration time of the counter can be set locally via the service interface (WZ).
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

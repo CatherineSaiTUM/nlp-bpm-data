@@ -1,0 +1,2 @@
+All devices / gateways must support an update or upgrade of their software. Triggered by an order from the NL, the local download of the updated software takes place on the terminal / gateway. After the download, the terminal / gateway first tests whether the software has been completely and error-free transferred.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

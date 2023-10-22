@@ -1,0 +1,7 @@
+All values ​​collected by 00:00 o'clock must be received by the NL no later than 12 o'clock of the following calendar day.
+It must also be possible to read out the load profile several times a day as period readout. For the legally required read-out of all values ​​collected up to 12 o'clock, only the missing values ​​have to be read out.
+Readings for billing data and logbooks are not subject to the requirement of a daily readout and can therefore be individually planned by the NB as different order types.
+The scope, e.g., logbooks, billing data, load profile data, and data content, e.g., partial reading of logbooks and load profiles, is definable.
+For this it is also necessary to specify or configure a time selection plan differentiated after PUSH or PULL operation. In the case of PUSH operation, the time reading plan must be configurable in the meter, in PULL mode the readout plan is controlled by the central unit. In the readout plan, it must be specified which counters are to be read when and at what time the reading is considered to have ended.
+The retrieval of missing values ​​must be supported by the AMCS accordingly. For division counter applies the
+Prerequisite: There is bidirectional communication with the division counter, or the electricity meter stores the last measured value pushed by the division counter. The temporal resolution of the reading value thus depends on the push interval of the division counter.

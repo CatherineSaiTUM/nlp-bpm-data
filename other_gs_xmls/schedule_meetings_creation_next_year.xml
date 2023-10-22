@@ -1,0 +1,382 @@
+<testset xmlns="http://cpee.org/ns/properties/2.0">
+  <executionhandler>ruby</executionhandler>
+  <subscriptions xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0">
+    <subscription xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0" id="_karo" url="https://lehre.bpm.in.tum.de/ports/8000/">
+      <topic id="activity">
+        <event>calling</event>
+        <event>done</event>
+      </topic>
+    </subscription>
+  </subscriptions>
+  <dataelements/>
+  <endpoints>
+    <timeout>https://cpee.org/services/timeout.php</timeout>
+    <user>https-post://cpee.org/services/timeout-user.php</user>
+    <auto>https-post://cpee.org/services/timeout-auto.php</auto>
+  </endpoints>
+  <attributes>
+    <info>schedule_meetings_creation_next_year</info>
+    <creator>Christine Ashcreek</creator>
+    <author>Christine Ashcreek</author>
+    <modeltype>CPEE</modeltype>
+    <guarded>none</guarded>
+    <guarded_id/>
+    <model_uuid>1fc43528-3e4a-40ee-8503-c0ed7e5d883c</model_uuid>
+    <model_version/>
+    <theme>extended</theme>
+    <design_dir>Templates.dir</design_dir>
+    <design_stage>development</design_stage>
+  </attributes>
+  <description>
+    <description xmlns="http://cpee.org/ns/description/1.0">
+      <call id="a1" endpoint="user">
+        <parameters>
+          <label>draft schedule of meetings;u;u;coordination unit;town planning authority</label>
+          <arguments>
+            <timeout/>
+          </arguments>
+        </parameters>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+          <code>
+            <description/>
+          </code>
+        </documentation>
+      </call>
+      <call id="a3" endpoint="user">
+        <parameters>
+          <label>add draft dates to calendars;u;u;coordination unit;town planning authority</label>
+          <arguments>
+            <timeout>!rand(1..4)</timeout>
+          </arguments>
+        </parameters>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+        </documentation>
+      </call>
+      <parallel wait="-1" cancel="last">
+        <parallel_branch pass="" local="">
+          <call id="a8" endpoint="user">
+            <parameters>
+              <label>check dates;u;support officer;u;u</label>
+              <arguments>
+                <timeout>!rand(2..8)</timeout>
+              </arguments>
+            </parameters>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+            </documentation>
+          </call>
+        </parallel_branch>
+        <parallel_branch pass="" local="">
+          <call id="a9" endpoint="user">
+            <parameters>
+              <label>suggest modifications;u;support officer;u;u </label>
+              <arguments>
+                <timeout>!rand(3..7)</timeout>
+              </arguments>
+            </parameters>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+            </documentation>
+          </call>
+        </parallel_branch>
+      </parallel>
+      <parallel wait="-1" cancel="last">
+        <parallel_branch pass="" local="">
+          <call id="a4" endpoint="user">
+            <parameters>
+              <label>recheck dates;u;u;coordination unit;u</label>
+              <arguments>
+                <timeout>!rand(1..4)</timeout>
+              </arguments>
+            </parameters>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+            </documentation>
+          </call>
+        </parallel_branch>
+        <parallel_branch pass="" local="">
+          <call id="a10" endpoint="user">
+            <parameters>
+              <label>looks for conflicts;u;u;coordination unit;u</label>
+              <arguments>
+                <timeout>!rand(3..7)</timeout>
+              </arguments>
+            </parameters>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+            </documentation>
+          </call>
+        </parallel_branch>
+      </parallel>
+      <call id="a6" endpoint="auto">
+        <parameters>
+          <label>send final schedule to committee members;u;u;u;u</label>
+          <arguments>
+            <timeout>!rand(2..4)</timeout>
+          </arguments>
+        </parameters>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+        </documentation>
+      </call>
+      <call id="a2" endpoint="user">
+        <parameters>
+          <label>check diaries;u;committee members;u;u</label>
+          <arguments>
+            <timeout>!rand(2..4)</timeout>
+          </arguments>
+        </parameters>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+          <code>
+            <description/>
+          </code>
+        </documentation>
+      </call>
+      <call id="a5" endpoint="user">
+        <parameters>
+          <label>advice of conflicts;u;committee members;u;u</label>
+          <arguments>
+            <timeout>!rand(3..6)</timeout>
+          </arguments>
+        </parameters>
+        <annotations>
+          <_timing>
+            <_timing_weight/>
+            <_timing_avg/>
+            <explanations/>
+          </_timing>
+          <_shifting>
+            <_shifting_type>Duration</_shifting_type>
+          </_shifting>
+          <_context_data_analysis>
+            <probes/>
+            <ips/>
+          </_context_data_analysis>
+          <report>
+            <url/>
+          </report>
+          <_notes>
+            <_notes_general/>
+          </_notes>
+        </annotations>
+        <documentation>
+          <input/>
+          <output/>
+          <implementation>
+            <description/>
+          </implementation>
+          <code>
+            <description/>
+          </code>
+        </documentation>
+      </call>
+    </description>
+  </description>
+  <transformation>
+    <description type="copy"/>
+    <dataelements type="none"/>
+    <endpoints type="none"/>
+  </transformation>
+  <subscriptions xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0">
+    <subscription xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0" id="_karo" url="https://lehre.bpm.in.tum.de/ports/8000/">
+      <topic id="activity">
+        <event>calling</event>
+      </topic>
+    </subscription>
+  </subscriptions>
+</testset>

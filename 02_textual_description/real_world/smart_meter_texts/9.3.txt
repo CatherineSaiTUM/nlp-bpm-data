@@ -1,0 +1,2 @@
+The central system transfers a credit balance to the prepayment meter. The successful transaction will be sent to the central system as ALARM or EVENT and is visible on the display. Each deposiot is written to the logbook of the meter.
+If the meter was switched off and there is now a credit available through a deposit, then the meter is unblocked for the customer. The switch-on readiness is displayed on the meter.

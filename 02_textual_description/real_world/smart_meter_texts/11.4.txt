@@ -1,0 +1,1 @@
+The system must provide a remote call to the gateway in order to query communication state and communication information (availability).

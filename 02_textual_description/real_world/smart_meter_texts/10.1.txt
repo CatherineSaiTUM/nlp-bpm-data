@@ -1,0 +1,4 @@
+The terminal automatically logs on to the central system. The system verifies if this terminal may be associated to the system (authentication). 
+It is desired to indicate the reception / connection quality to the technician on the terminal on site.
+After initial logon to the central system, the parameterization of the terminal (see Use Case Group
+Parameterization), if necessary, a key exchange and the setting of the time carried out.

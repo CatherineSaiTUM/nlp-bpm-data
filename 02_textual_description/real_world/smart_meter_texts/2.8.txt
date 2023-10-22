@@ -1,0 +1,7 @@
+In this case, a terminal is enabled by a command via the service interface (WZ) the on-site (re) engagement.
+The activation takes place as follows: a) A release command is transmitted to the terminal via the service interface (WZ).
+The terminal indicates this condition (e.g., READY) and an entry in the logbook is generated.
+This state is transmitted to the central system as ALARM or EVENT.
+b) From this time can be turned on directly on the control of the terminal.
+The terminal must indicate this status change (e.g., CONNECTED). An entry in the logbook is generated.
+This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

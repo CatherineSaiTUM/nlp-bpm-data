@@ -1,0 +1,1 @@
+For a planned push operation, the readout plan (time (time grid) and data of any kind to be pushed) can be stored on the meter. For this purpose, a read-out plan is stored in the counter via the service interface (TM).

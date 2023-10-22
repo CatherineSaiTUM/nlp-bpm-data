@@ -1,0 +1,2 @@
+It should be possible to safely dispose sensitive information (eg cryptographic parameters) on 
+Terminals / Gateways via the service interface (WZ) / maintenance interface (WG) or WAN interface (WAN). This state should be stored in the central system.

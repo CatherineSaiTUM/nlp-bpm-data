@@ -1,0 +1,6 @@
+Alarms sent by one of the system components must be uniquely identifiable:
+* Origin of the ALARM
+* Type of trigger of ALARM
+* Type of ALARMs (for example, by meaningful plain text message)
+* Unique timestamp
+Examples of security events that can trigger ALARMs are listed in the "OE Requirement Catalog End-to-End Security Smart Metering" section B.4.

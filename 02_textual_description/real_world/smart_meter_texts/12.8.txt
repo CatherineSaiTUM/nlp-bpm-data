@@ -1,0 +1,1 @@
+The system must be able to change the cryptographic primitives, procedures and key lengths for terminals / gateways (eg. by means of firmware update).

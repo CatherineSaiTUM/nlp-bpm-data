@@ -1,0 +1,5 @@
+a.) The terminal / gateway installs the new firmware and performs a self-test on the newly installed firmware.
+If this fails, the last known active firmware version is reinstalled / activated on the terminal / gateway, a message is sent to the central system and an entry is made in the logbook.
+
+b.) The terminal / gateway can not establish a connection to the central system for more than 72 hours (parameterizable) (for example: the terminal has "hung up"). The terminal / gateway installs / activates the last known active firmware version, sends a mediation to the central system as ALARM or EVENT and makes an entry in the logbook. The metrological calibration validity of the meter must be given after this process.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

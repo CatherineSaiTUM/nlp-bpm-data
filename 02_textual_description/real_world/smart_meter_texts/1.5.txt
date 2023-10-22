@@ -1,0 +1,8 @@
+It must basically be possible to make an on-site reading of the meter using a mobile device via the service interface of the meter.
+In order to meet the strict data protection regulations, the cryptographic parameters that authorize the readout of the affected meter must be stored in the mobile device.
+It must therefore not be possible with these cryptographic parameters to read several or all terminals of the terminal equipment.
+The NB will store the cryptographic parameters in the mobile device for the affected meter and send a service technician to the affected customer system to read out the affected meter.
+The data thus obtained must be transmitted to the central system.
+Each readout must be noted as access in the logbook.
+The scope and data content is definable.
+The following applies to division meters: On-site read-out is only possible if a communication interface based on the security requirements from "OE Requirements Catalog End-to-End Security Smart Metering" is provided on the division meter.

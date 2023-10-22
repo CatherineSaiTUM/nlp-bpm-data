@@ -1,0 +1,2 @@
+Cryptographic parameters required for calibration and testing of the device have been successfully transmitted to the external testing and verification center in encrypted form.
+The meter has been checked or calibrated and an entry in the logbook of the meter has been made.

@@ -1,0 +1,2 @@
+The exceeding of an active power limit, which was set and activated by the meter, is detected by the meter, entered in the logbook and transferred to the central system as ALARM or EVENT.
+However, the excess does not lead to a shutdown of the customer system.

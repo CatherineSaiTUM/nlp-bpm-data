@@ -1,0 +1,2 @@
+It must be possible to transmit the Gateway's (WG) ALARMs and EVENTs as well as logs to a centralized system via WAN interface. The "OE Anforderungskatalog Ende-zu-Ende Sicherheit Smart Metering" have to be applied.
+Within the centralized system an independent storage shall be provided for all ALARMs and EVENTs of all endpoints/gateways.

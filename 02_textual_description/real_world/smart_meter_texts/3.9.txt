@@ -1,0 +1,2 @@
+The customer interface (H1) on the meter must be deactivated and activated locally via the service interface (WZ), whereby this is deactivated by default.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

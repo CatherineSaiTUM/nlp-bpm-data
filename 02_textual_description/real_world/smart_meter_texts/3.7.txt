@@ -1,0 +1,2 @@
+A time can be stored in the counter from which the load profile is displayed on the meter.
+This function can be relaunched via the central system. The central system sends the time from which the load profile may be displayed.

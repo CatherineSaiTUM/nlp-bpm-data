@@ -1,0 +1,2 @@
+A change of the time and power tables, accumulation times and pre-defined memory depth, which control the tariff recording, can take place via the local service interface (WZ). This functionality must be supported both ad hoc and via activation time.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

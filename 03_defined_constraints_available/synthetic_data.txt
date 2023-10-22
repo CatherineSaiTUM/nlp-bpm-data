@@ -1,0 +1,3 @@
+c1 = ({D}, {E}, {directly follows}) 
+c2 = ({B}, {X}, {eventually follows})
+c3 = ({C}, {Y}, {eventually follows}) 

@@ -1,0 +1,1 @@
+The specifications from "OE Requirements Catalog End-to-end Security Smart Metering" have to be applied for the safety logbook. All gateways must be able to transmit the entire logbook or partial logbook entries (PULL or PUSH Mechanism must be parameterizable) to the central system.

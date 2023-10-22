@@ -1,0 +1,1 @@
+At terminals / gateways permissions (roles, authentication, network access, etc.) are managed via whitelisting.

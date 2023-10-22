@@ -1,0 +1,1 @@
+The goal is to receive current meter data at the request of authorized actors, see Role Definition in "OE Requirements Catalog End-to-End Security Smart Metering". This request is made by the NB by means of a specific read-out command to the desired counter. The scope and data content is definable.

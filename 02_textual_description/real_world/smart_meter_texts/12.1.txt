@@ -1,0 +1,6 @@
+For security reasons, it must be ensured that only authorized and authenticated service employees
+to access the terminals / gateways.
+It must be possible to change the cryptographic parameters and their roles on the terminals/gateways using the service interface (WZ) / maintenance interface (WG).
+The changes are noted in the logbook of the terminals / gatewys. There are no cryptographic parameters
+stored in the logbooks. The central system receives an ALARM or an EVENT.
+Role definition and update function according to "OE Requirements Catalog End-to-end Security Smart Metering".

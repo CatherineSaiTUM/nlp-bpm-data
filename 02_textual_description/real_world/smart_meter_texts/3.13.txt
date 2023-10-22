@@ -1,0 +1,1 @@
+A change of the time and performance tables, accumulation times and pre-defined memory depth, which control the tariff recording, can take place via the central system. This functionality must be supported both ad hoc and via activation time.

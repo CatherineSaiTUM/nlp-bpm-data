@@ -1,0 +1,1 @@
+The system must have a secure transmission of cryptographic parameters between the NB and not trustworthy third parties (eg market surveillance, experts, certification body, etc.).

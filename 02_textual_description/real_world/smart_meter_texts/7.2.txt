@@ -1,0 +1,4 @@
+Each meter has an individual security key that is not publicly known. Meters that have to be calibrated/tested must temporarily transmit all required cryptographic parameters to the testing laboratory using a secure way.
+The external testing laboratory is then able to carry out the calibration or testing of the device.
+Each activation of the calibration mode must be recorded in the logbook of the meter.
+

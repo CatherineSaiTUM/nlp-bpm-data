@@ -1,0 +1,4 @@
+If a customer e.g. Commissioned via a web portal direct intervention by the NB from a distance, the breaker of the terminal is turned on by remote command.
+The activation takes place as follows. The switch-on command is transmitted from the central system to the terminal.
+The terminal switches on the power supply, displays this status on the display (e.g. CONNECTED) and an entry is created in the logbook.
+This state is transmitted to the central system as ALARM or EVENT. In the event of a disturbed communication with the terminal, a time window for the validity of the command must be defined.

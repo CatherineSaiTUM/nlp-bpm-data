@@ -1,0 +1,2 @@
+The system must provide a secured local access to the gateway applying at least the "OE Requirement Catalog End-to-End Security Smart Metering" security policies and definitions.
+Information must be handed over to the head office! When activated «successful» and after deactivation «successful».

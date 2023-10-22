@@ -1,0 +1,579 @@
+<testset xmlns="http://cpee.org/ns/properties/2.0">
+  <executionhandler>ruby</executionhandler>
+  <subscriptions xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0">
+    <subscription xmlns="http://riddl.org/ns/common-patterns/notifications-producer/2.0" id="_karo" url="https://lehre.bpm.in.tum.de/ports/8000/">
+      <topic id="activity">
+        <event>calling</event>
+        <event>done</event>
+      </topic>
+    </subscription>
+  </subscriptions>
+  <dataelements/>
+  <endpoints>
+    <timeout>https://cpee.org/services/timeout.php</timeout>
+    <subprocess>https://cpee.org/flow/start/url/</subprocess>
+  </endpoints>
+  <attributes>
+    <info>running_example</info>
+    <creator>Christine Ashcreek</creator>
+    <author>Christine Ashcreek</author>
+    <modeltype>CPEE</modeltype>
+    <guarded>none</guarded>
+    <guarded_id/>
+    <model_uuid>9b368bbc-d1eb-46ae-a81d-84f26fcace56</model_uuid>
+    <model_version/>
+    <theme>extended</theme>
+    <design_dir>Logs_resources.dir</design_dir>
+    <design_stage>development</design_stage>
+  </attributes>
+  <description>
+    <description xmlns="http://cpee.org/ns/description/1.0">
+      <parallel wait="-1" cancel="last">
+        <parallel_branch pass="" local="">
+          <call id="a1" endpoint="timeout">
+            <parameters>
+              <label>perform solvency check;u;clerk;financial department;u</label>
+              <method>:post</method>
+              <arguments>
+                <timeout>!rand(1..5)</timeout>
+              </arguments>
+            </parameters>
+            <code>
+              <prepare/>
+              <finalize output="result">data.dec1 = rand(0..1)</finalize>
+              <update output="result"/>
+              <rescue output="result"/>
+            </code>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+              <code>
+                <description/>
+              </code>
+            </documentation>
+          </call>
+        </parallel_branch>
+        <parallel_branch pass="" local="">
+          <call id="a2" endpoint="timeout">
+            <parameters>
+              <label>perform solvency check;u;clerk;financial department;u</label>
+              <method>:post</method>
+              <arguments>
+                <timeout>!rand(1..5)</timeout>
+              </arguments>
+            </parameters>
+            <code>
+              <prepare/>
+              <finalize output="result">data.dec2 = rand(0..1)</finalize>
+              <update output="result"/>
+              <rescue output="result"/>
+            </code>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+              <code>
+                <description/>
+              </code>
+            </documentation>
+          </call>
+        </parallel_branch>
+      </parallel>
+      <choose mode="exclusive">
+        <alternative condition="data.dec1 == 0 and data.dec2 == 0">
+          <_probability>
+            <_probability_min/>
+            <_probability_max/>
+            <_probability_avg/>
+          </_probability>
+          <call id="a3" endpoint="timeout">
+            <parameters>
+              <label>inform customer;u;clerk;customer advisory;u</label>
+              <method>:post</method>
+              <arguments>
+                <timeout>2</timeout>
+              </arguments>
+            </parameters>
+            <code>
+              <prepare/>
+              <finalize output="result"/>
+              <update output="result"/>
+              <rescue output="result"/>
+            </code>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+              <code>
+                <description/>
+              </code>
+            </documentation>
+          </call>
+          <call id="a4" endpoint="timeout">
+            <parameters>
+              <label>delete customer request;u;clerk;customer advisory;u</label>
+              <method>:post</method>
+              <arguments>
+                <timeout>2</timeout>
+              </arguments>
+            </parameters>
+            <code>
+              <prepare/>
+              <finalize output="result"/>
+              <update output="result"/>
+              <rescue output="result"/>
+            </code>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+              <code>
+                <description/>
+              </code>
+            </documentation>
+          </call>
+          <terminate/>
+        </alternative>
+        <otherwise>
+          <choose mode="exclusive">
+            <alternative condition="data.dec1 == 0">
+              <call id="a5" endpoint="timeout">
+                <parameters>
+                  <label>develop payment schedule;Anna;u;u;u</label>
+                  <method>:post</method>
+                  <arguments>
+                    <timeout>!rand(1..3)</timeout>
+                  </arguments>
+                </parameters>
+                <code>
+                  <prepare/>
+                  <finalize output="result"/>
+                  <update output="result"/>
+                  <rescue output="result"/>
+                </code>
+                <annotations>
+                  <_timing>
+                    <_timing_weight/>
+                    <_timing_avg/>
+                    <explanations/>
+                  </_timing>
+                  <_shifting>
+                    <_shifting_type>Duration</_shifting_type>
+                  </_shifting>
+                  <_context_data_analysis>
+                    <probes/>
+                    <ips/>
+                  </_context_data_analysis>
+                  <report>
+                    <url/>
+                  </report>
+                  <_notes>
+                    <_notes_general/>
+                  </_notes>
+                </annotations>
+                <documentation>
+                  <input/>
+                  <output/>
+                  <implementation>
+                    <description/>
+                  </implementation>
+                  <code>
+                    <description/>
+                  </code>
+                </documentation>
+              </call>
+              <_probability>
+                <_probability_min/>
+                <_probability_max/>
+                <_probability_avg/>
+              </_probability>
+            </alternative>
+            <otherwise>
+              <call id="a6" endpoint="timeout">
+                <parameters>
+                  <label>develop payment schedule;Hans;u;u;u</label>
+                  <method>:post</method>
+                  <arguments>
+                    <timeout/>
+                  </arguments>
+                </parameters>
+                <code>
+                  <prepare/>
+                  <finalize output="result"/>
+                  <update output="result"/>
+                  <rescue output="result"/>
+                </code>
+                <annotations>
+                  <_timing>
+                    <_timing_weight/>
+                    <_timing_avg/>
+                    <explanations/>
+                  </_timing>
+                  <_shifting>
+                    <_shifting_type>Duration</_shifting_type>
+                  </_shifting>
+                  <_context_data_analysis>
+                    <probes/>
+                    <ips/>
+                  </_context_data_analysis>
+                  <report>
+                    <url/>
+                  </report>
+                  <_notes>
+                    <_notes_general/>
+                  </_notes>
+                </annotations>
+                <documentation>
+                  <input/>
+                  <output/>
+                  <implementation>
+                    <description/>
+                  </implementation>
+                  <code>
+                    <description/>
+                  </code>
+                </documentation>
+              </call>
+            </otherwise>
+          </choose>
+          <call id="a7" endpoint="timeout">
+            <parameters>
+              <label>send schedule;u;u;u;u</label>
+              <method>:post</method>
+              <arguments>
+                <timeout>1</timeout>
+              </arguments>
+            </parameters>
+            <code>
+              <prepare/>
+              <finalize output="result"/>
+              <update output="result"/>
+              <rescue output="result"/>
+            </code>
+            <annotations>
+              <_timing>
+                <_timing_weight/>
+                <_timing_avg/>
+                <explanations/>
+              </_timing>
+              <_shifting>
+                <_shifting_type>Duration</_shifting_type>
+              </_shifting>
+              <_context_data_analysis>
+                <probes/>
+                <ips/>
+              </_context_data_analysis>
+              <report>
+                <url/>
+              </report>
+              <_notes>
+                <_notes_general/>
+              </_notes>
+            </annotations>
+            <documentation>
+              <input/>
+              <output/>
+              <implementation>
+                <description/>
+              </implementation>
+              <code>
+                <description/>
+              </code>
+            </documentation>
+          </call>
+          <parallel wait="-1" cancel="last">
+            <parallel_branch pass="" local="">
+              <call id="a8" endpoint="timeout">
+                <parameters>
+                  <label>approve payment schedule;u;manager;u;u</label>
+                  <method>:post</method>
+                  <arguments>
+                    <timeout>!rand(3..7)</timeout>
+                  </arguments>
+                </parameters>
+                <code>
+                  <prepare/>
+                  <finalize output="result">data.dec3 = rand(0..1)</finalize>
+                  <update output="result"/>
+                  <rescue output="result"/>
+                </code>
+                <annotations>
+                  <_timing>
+                    <_timing_weight/>
+                    <_timing_avg/>
+                    <explanations/>
+                  </_timing>
+                  <_shifting>
+                    <_shifting_type>Duration</_shifting_type>
+                  </_shifting>
+                  <_context_data_analysis>
+                    <probes/>
+                    <ips/>
+                  </_context_data_analysis>
+                  <report>
+                    <url/>
+                  </report>
+                  <_notes>
+                    <_notes_general/>
+                  </_notes>
+                </annotations>
+                <documentation>
+                  <input/>
+                  <output/>
+                  <implementation>
+                    <description/>
+                  </implementation>
+                  <code>
+                    <description/>
+                  </code>
+                </documentation>
+              </call>
+            </parallel_branch>
+            <parallel_branch pass="" local="">
+              <call id="a9" endpoint="timeout">
+                <parameters>
+                  <label>approve payment schedule;u;supervisor;u;u</label>
+                  <method>:post</method>
+                  <arguments>
+                    <timeout>!rand(2..4)</timeout>
+                  </arguments>
+                </parameters>
+                <code>
+                  <prepare/>
+                  <finalize output="result">data.dec4 = rand(0..1)</finalize>
+                  <update output="result"/>
+                  <rescue output="result"/>
+                </code>
+                <annotations>
+                  <_timing>
+                    <_timing_weight/>
+                    <_timing_avg/>
+                    <explanations/>
+                  </_timing>
+                  <_shifting>
+                    <_shifting_type>Duration</_shifting_type>
+                  </_shifting>
+                  <_context_data_analysis>
+                    <probes/>
+                    <ips/>
+                  </_context_data_analysis>
+                  <report>
+                    <url/>
+                  </report>
+                  <_notes>
+                    <_notes_general/>
+                  </_notes>
+                </annotations>
+                <documentation>
+                  <input/>
+                  <output/>
+                  <implementation>
+                    <description/>
+                  </implementation>
+                  <code>
+                    <description/>
+                  </code>
+                </documentation>
+              </call>
+            </parallel_branch>
+          </parallel>
+          <choose mode="exclusive">
+            <alternative condition="data.dec3 == 0 and data.dec4 == 0">
+              <call id="a10" endpoint="timeout">
+                <parameters>
+                  <label>call customer to discuss alternative;u;u;customer advisory;u</label>
+                  <method>:post</method>
+                  <arguments>
+                    <timeout>!rand(2..6)</timeout>
+                  </arguments>
+                </parameters>
+                <code>
+                  <prepare/>
+                  <finalize output="result"/>
+                  <update output="result"/>
+                  <rescue output="result"/>
+                </code>
+                <annotations>
+                  <_timing>
+                    <_timing_weight/>
+                    <_timing_avg/>
+                    <explanations/>
+                  </_timing>
+                  <_shifting>
+                    <_shifting_type>Duration</_shifting_type>
+                  </_shifting>
+                  <_context_data_analysis>
+                    <probes/>
+                    <ips/>
+                  </_context_data_analysis>
+                  <report>
+                    <url/>
+                  </report>
+                  <_notes>
+                    <_notes_general/>
+                  </_notes>
+                </annotations>
+                <documentation>
+                  <input/>
+                  <output/>
+                  <implementation>
+                    <description/>
+                  </implementation>
+                  <code>
+                    <description/>
+                  </code>
+                </documentation>
+              </call>
+              <_probability>
+                <_probability_min/>
+                <_probability_max/>
+                <_probability_avg/>
+              </_probability>
+            </alternative>
+            <otherwise>
+              <call id="a11" endpoint="timeout">
+                <parameters>
+                  <label>send email to customer;system;u;u;u</label>
+                  <method>:post</method>
+                  <arguments>
+                    <timeout/>
+                  </arguments>
+                </parameters>
+                <code>
+                  <prepare/>
+                  <finalize output="result"/>
+                  <update output="result"/>
+                  <rescue output="result"/>
+                </code>
+                <annotations>
+                  <_timing>
+                    <_timing_weight/>
+                    <_timing_avg/>
+                    <explanations/>
+                  </_timing>
+                  <_shifting>
+                    <_shifting_type>Duration</_shifting_type>
+                  </_shifting>
+                  <_context_data_analysis>
+                    <probes/>
+                    <ips/>
+                  </_context_data_analysis>
+                  <report>
+                    <url/>
+                  </report>
+                  <_notes>
+                    <_notes_general/>
+                  </_notes>
+                </annotations>
+                <documentation>
+                  <input/>
+                  <output/>
+                  <implementation>
+                    <description/>
+                  </implementation>
+                  <code>
+                    <description/>
+                  </code>
+                </documentation>
+              </call>
+            </otherwise>
+          </choose>
+        </otherwise>
+      </choose>
+    </description>
+  </description>
+  <transformation>
+    <description type="copy"/>
+    <dataelements type="none"/>
+    <endpoints type="none"/>
+  </transformation>
+</testset>

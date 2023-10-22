@@ -1,0 +1,2 @@
+The installation of the verified firmware at the counter is triggered by a command, the status is communicated to the central system and a logbook entry is made at the meter.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

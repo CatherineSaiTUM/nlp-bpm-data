@@ -1,0 +1,3 @@
+The gateway has a start-up configuration which provides authorizsation and authentication for a special guest network.
+The central system checks the credentials of the Gateways and provisiones the gateway remotely with the config parameters  stored in the backend (auto-provisioning).
+After a reload the gateway adopts the remotely transfered setup and initializes itself in the smart meter network.

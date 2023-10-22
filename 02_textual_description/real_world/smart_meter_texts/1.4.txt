@@ -1,0 +1,5 @@
+Prerequisite: There is bidirectional communication with the division counter, or the electricity meter or gateway receives the last measured value pushed by the division counter.
+The temporal accuracy of the reading thus depends on the push interval of the divisional counter.
+The data should be protected along the entire transmission path according to the security concept "OE requirements catalog end-to-end security smart metering".
+The electricity meter or gateway receives the encrypted data from the division meter and sends that data to the central system based on the security requirements of "OE Requirement Catalog End-to-End Security Smart Metering".
+If the technology and protocols support the end-to-end encryption requirement from the branch device to the central system, it should be possible to parameterize this function.

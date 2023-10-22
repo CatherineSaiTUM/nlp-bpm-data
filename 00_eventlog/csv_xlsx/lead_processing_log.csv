@@ -1,0 +1,425 @@
+concept:instance,concept:event,concept:name,time:timestamp,lifecycle:transition,org:resource,org:role,org:unit,org:org
+4d107c25-be17-4f90-8174-8906140b1b58,b7f7ddc38f7cd3c0e2cfda56b25b4b11,check open leads,2023-03-28T12:21:00.439+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,b7f7ddc38f7cd3c0e2cfda56b25b4b11,check open leads,2023-03-28T12:21:02.455+02:00,done,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,ed858916cec9debd63b4666fbf1ea304,select top five leads,2023-03-28T12:21:02.459+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,273f06565bc859ae36bf37af819416ec,check open leads,2023-03-28T12:21:03.753+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,273f06565bc859ae36bf37af819416ec,check open leads,2023-03-28T12:21:05.767+02:00,done,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,a5a49c4639d3ab2336a89e1536f2c43b,select top five leads,2023-03-28T12:21:05.769+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,0d4e8ddda5e7207945a496bc947f87f0,tell sales assistant to call contact person of leads,2023-03-28T12:21:06.474+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,ed858916cec9debd63b4666fbf1ea304,select top five leads,2023-03-28T12:21:06.464+02:00,done,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,93f3181dda7d47113ff1fce1bd512453,check open leads,2023-03-28T12:21:06.903+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,0d4e8ddda5e7207945a496bc947f87f0,tell sales assistant to call contact person of leads,2023-03-28T12:21:07.480+02:00,done,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,e73d980e6fc46558df54f4fc57dc159d,call customer,2023-03-28T12:21:07.488+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,75220f44b1e98d20be8e83db20526b93,tell sales assistant to call contact person of leads,2023-03-28T12:21:07.778+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,a5a49c4639d3ab2336a89e1536f2c43b,select top five leads,2023-03-28T12:21:07.776+02:00,done,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,75220f44b1e98d20be8e83db20526b93,tell sales assistant to call contact person of leads,2023-03-28T12:21:08.784+02:00,done,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,433da6085861c24b8cc67e63e5186c61,call customer,2023-03-28T12:21:08.800+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e880f04b956ab9912d26cacb42958bf5,check open leads,2023-03-28T12:21:09.847+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,d3d29b5b897ab4f8113369e67371e124,select top five leads,2023-03-28T12:21:09.932+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,93f3181dda7d47113ff1fce1bd512453,check open leads,2023-03-28T12:21:09.929+02:00,done,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,e73d980e6fc46558df54f4fc57dc159d,call customer,2023-03-28T12:21:10.499+02:00,done,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,bba1449019e13063ac024bb93ce2d805,call customer,2023-03-28T12:21:10.506+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,75c4635882f931963bf01e5a2da25248,tell sales assistant to call contact person of leads,2023-03-28T12:21:11.954+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,d3d29b5b897ab4f8113369e67371e124,select top five leads,2023-03-28T12:21:11.948+02:00,done,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,433da6085861c24b8cc67e63e5186c61,call customer,2023-03-28T12:21:12.805+02:00,done,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,646827cbbd1ed9e507931b84a6a47541,call customer,2023-03-28T12:21:12.807+02:00,calling,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,106111eb0d8927ec4e503306c23f293c,check open leads,2023-03-28T12:21:12.841+02:00,calling,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e880f04b956ab9912d26cacb42958bf5,check open leads,2023-03-28T12:21:12.867+02:00,done,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,3df2add4d31858f9979d6f557dabb5a1,select top five leads,2023-03-28T12:21:12.869+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,421052db2371bfe8cd69f6ce8179cf77,call customer,2023-03-28T12:21:13.524+02:00,calling,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,bba1449019e13063ac024bb93ce2d805,call customer,2023-03-28T12:21:13.519+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,3df2add4d31858f9979d6f557dabb5a1,select top five leads,2023-03-28T12:21:14.873+02:00,done,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,11bcd2442053b9ffd360b413fa834972,tell sales assistant to call contact person of leads,2023-03-28T12:21:14.874+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,75c4635882f931963bf01e5a2da25248,tell sales assistant to call contact person of leads,2023-03-28T12:21:14.958+02:00,done,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,0ceaafc3a1c863325235daf2dc1b840f,call customer,2023-03-28T12:21:14.961+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,646827cbbd1ed9e507931b84a6a47541,call customer,2023-03-28T12:21:15.815+02:00,done,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,fc99666d34be630163fc55e19e2a992c,send note to manager,2023-03-28T12:21:15.817+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,f172ed2a74f75970507ec00a197aae16,check open leads,2023-03-28T12:21:16.705+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,fc99666d34be630163fc55e19e2a992c,send note to manager,2023-03-28T12:21:16.822+02:00,done,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,d1ca015bf2bef579de040f778f48284f,process lead,2023-03-28T12:21:16.826+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,45b77d37fa45b8fea68931c2137e24a4,select top five leads,2023-03-28T12:21:16.856+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,106111eb0d8927ec4e503306c23f293c,check open leads,2023-03-28T12:21:16.853+02:00,done,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,0ceaafc3a1c863325235daf2dc1b840f,call customer,2023-03-28T12:21:16.974+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,cf10696fd65a5357b8a60ab44396fb50,call customer,2023-03-28T12:21:16.978+02:00,calling,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,421052db2371bfe8cd69f6ce8179cf77,call customer,2023-03-28T12:21:17.539+02:00,done,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,2da778ac6512266f37c9db22917c43ff,send note to manager,2023-03-28T12:21:17.544+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,11bcd2442053b9ffd360b413fa834972,tell sales assistant to call contact person of leads,2023-03-28T12:21:17.878+02:00,done,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,257e495d9358161a44d93c42cc715f18,call customer,2023-03-28T12:21:17.881+02:00,calling,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,f1499c3795ef7c98a535a9f52dfe7020,tell sales assistant to call contact person of leads,2023-03-28T12:21:18.868+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,45b77d37fa45b8fea68931c2137e24a4,select top five leads,2023-03-28T12:21:18.863+02:00,done,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,2da778ac6512266f37c9db22917c43ff,send note to manager,2023-03-28T12:21:19.553+02:00,done,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,e3aae7a8e871f243cdca4f1c9834aff7,process lead,2023-03-28T12:21:19.566+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,b76698645d5f5eea592c24f6c52c1ccf,check open leads,2023-03-28T12:21:19.774+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,cf10696fd65a5357b8a60ab44396fb50,call customer,2023-03-28T12:21:20.983+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,ea2f52fcdf96959619973860c2183e5c,call customer,2023-03-28T12:21:20.986+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,f172ed2a74f75970507ec00a197aae16,check open leads,2023-03-28T12:21:21.725+02:00,done,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,8583294d9bb6867eafdfd35f3f4febeb,select top five leads,2023-03-28T12:21:21.727+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,f1499c3795ef7c98a535a9f52dfe7020,tell sales assistant to call contact person of leads,2023-03-28T12:21:21.873+02:00,done,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,248de45cfc3171be3e2798fd9c61e82e,call customer,2023-03-28T12:21:21.876+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,257e495d9358161a44d93c42cc715f18,call customer,2023-03-28T12:21:21.886+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e0e5d55cbc3bb02078987d32aac8cfa6,send note to manager,2023-03-28T12:21:21.889+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,55b606b0fe77c7b9b1c84176088eee1b,process lead,2023-03-28T12:21:22.903+02:00,calling,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e0e5d55cbc3bb02078987d32aac8cfa6,send note to manager,2023-03-28T12:21:22.895+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,ea2f52fcdf96959619973860c2183e5c,call customer,2023-03-28T12:21:22.996+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,d5ef328412c9bb1af3269770dc03712e,send note to manager,2023-03-28T12:21:23.004+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,ab164b9a5368f89a48afddd427014f8e,check open leads,2023-03-28T12:21:23.411+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,e3aae7a8e871f243cdca4f1c9834aff7,process lead,2023-03-28T12:21:23.573+02:00,done,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,41194fbb60820385633a920881358d9d,call customer,2023-03-28T12:21:23.576+02:00,calling,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,b76698645d5f5eea592c24f6c52c1ccf,check open leads,2023-03-28T12:21:23.787+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,baea04c0f3bb0c7f2b3869330fdef1db,select top five leads,2023-03-28T12:21:23.791+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,d1ca015bf2bef579de040f778f48284f,process lead,2023-03-28T12:21:23.830+02:00,done,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,655c689a9e159aca8b05a299f093a3fc,call customer,2023-03-28T12:21:23.833+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,73da785f7c9f3c458faf602c253b3441,process lead,2023-03-28T12:21:24.019+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,d5ef328412c9bb1af3269770dc03712e,send note to manager,2023-03-28T12:21:24.012+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,248de45cfc3171be3e2798fd9c61e82e,call customer,2023-03-28T12:21:24.880+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,48b1b881f30fb9bb9431df515bef59a7,send note to manager,2023-03-28T12:21:24.883+02:00,calling,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,41194fbb60820385633a920881358d9d,call customer,2023-03-28T12:21:25.609+02:00,done,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,2ed815c9d25134b2e52376287e3df3cc,call customer,2023-03-28T12:21:25.620+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,8583294d9bb6867eafdfd35f3f4febeb,select top five leads,2023-03-28T12:21:25.731+02:00,done,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,fd73d3c4dc97f6cbe75960d2fa0bb7c0,tell sales assistant to call contact person of leads,2023-03-28T12:21:25.734+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,6b51c98864028e90836ad193f47f7240,send note to manager,2023-03-28T12:21:25.839+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,655c689a9e159aca8b05a299f093a3fc,call customer,2023-03-28T12:21:25.837+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,881045e126ec4218ade7b0caed3a8778,check open leads,2023-03-28T12:21:26.658+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,baea04c0f3bb0c7f2b3869330fdef1db,select top five leads,2023-03-28T12:21:26.799+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,fb80fe69b77f97c7a0f7627a63f85d6a,tell sales assistant to call contact person of leads,2023-03-28T12:21:26.802+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,48b1b881f30fb9bb9431df515bef59a7,send note to manager,2023-03-28T12:21:26.886+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,2c7b1fda6957f20062b1c36157972882,process lead,2023-03-28T12:21:26.889+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,2ed815c9d25134b2e52376287e3df3cc,call customer,2023-03-28T12:21:27.627+02:00,done,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,c5277fffc63e617aad4d921c77ab2580,send note to manager,2023-03-28T12:21:27.631+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,fd73d3c4dc97f6cbe75960d2fa0bb7c0,tell sales assistant to call contact person of leads,2023-03-28T12:21:27.740+02:00,done,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,25905a8760f64be75059f1a8a9100f7b,call customer,2023-03-28T12:21:27.747+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,d1348f6271c22397d8c0410fe0922f39,process lead,2023-03-28T12:21:27.850+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,6b51c98864028e90836ad193f47f7240,send note to manager,2023-03-28T12:21:27.844+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,73da785f7c9f3c458faf602c253b3441,process lead,2023-03-28T12:21:28.026+02:00,done,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,0cc1b5983207287d6c958bf77f971631,call customer,2023-03-28T12:21:28.031+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,ab164b9a5368f89a48afddd427014f8e,check open leads,2023-03-28T12:21:28.444+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,493015f4df12cffc221665fe24a5898f,select top five leads,2023-03-28T12:21:28.448+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,fb80fe69b77f97c7a0f7627a63f85d6a,tell sales assistant to call contact person of leads,2023-03-28T12:21:28.805+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,48f5c690a4cad63a68d152e71a61601c,call customer,2023-03-28T12:21:28.808+02:00,calling,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,059e8e0126e0602d53fc8bc0838e336c,process lead,2023-03-28T12:21:29.639+02:00,calling,u,manager,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,c5277fffc63e617aad4d921c77ab2580,send note to manager,2023-03-28T12:21:29.635+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,55b606b0fe77c7b9b1c84176088eee1b,process lead,2023-03-28T12:21:29.915+02:00,done,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,077f7c3f53dc769f70c99728002a6ded,call customer,2023-03-28T12:21:29.920+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,0cc1b5983207287d6c958bf77f971631,call customer,2023-03-28T12:21:30.038+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,686638f8f6d2b58d1a204b350125e6a8,send note to manager,2023-03-28T12:21:30.041+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,5d43c6c1a78f1fcf62564f3affdd5850,tell sales assistant to call contact person of leads,2023-03-28T12:21:30.461+02:00,calling,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,493015f4df12cffc221665fe24a5898f,select top five leads,2023-03-28T12:21:30.456+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,881045e126ec4218ade7b0caed3a8778,check open leads,2023-03-28T12:21:31.681+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,3a376289798ec5c4f4f7ec7a65e72dbf,select top five leads,2023-03-28T12:21:31.687+02:00,calling,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,25905a8760f64be75059f1a8a9100f7b,call customer,2023-03-28T12:21:31.756+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,1034a7668172752bb2ec1c4899ec2e80,send note to manager,2023-03-28T12:21:31.766+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,077f7c3f53dc769f70c99728002a6ded,call customer,2023-03-28T12:21:31.927+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e0d4b5f6c8e497d8851e993c0cda43c8,send note to manager,2023-03-28T12:21:31.931+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,686638f8f6d2b58d1a204b350125e6a8,send note to manager,2023-03-28T12:21:32.046+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,fc5a75c8ee76c39a733e3608e4f5111e,process lead,2023-03-28T12:21:32.052+02:00,calling,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,5d43c6c1a78f1fcf62564f3affdd5850,tell sales assistant to call contact person of leads,2023-03-28T12:21:32.465+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,cdb8e1ca7d795a84e0dfcd5bb71e2e23,call customer,2023-03-28T12:21:32.468+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,1034a7668172752bb2ec1c4899ec2e80,send note to manager,2023-03-28T12:21:32.772+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,b699ebc3853178c1ed42c93bc0806f81,process lead,2023-03-28T12:21:32.778+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,48f5c690a4cad63a68d152e71a61601c,call customer,2023-03-28T12:21:32.815+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,4b502f40c5c6abf56b2ed92a2071c571,call customer,2023-03-28T12:21:32.821+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,d1348f6271c22397d8c0410fe0922f39,process lead,2023-03-28T12:21:32.854+02:00,done,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,ee9424ef3751d3c2fe500cb302462966,call customer,2023-03-28T12:21:32.856+02:00,calling,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,4d468d1b1f0a3092be8abc5544bb21a6,call customer,2023-03-28T12:21:32.895+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e0d4b5f6c8e497d8851e993c0cda43c8,send note to manager,2023-03-28T12:21:32.936+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,62efb596fd84c3c5911b84837ee9a2b8,process lead,2023-03-28T12:21:32.940+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,2c7b1fda6957f20062b1c36157972882,process lead,2023-03-28T12:21:32.893+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,3a376289798ec5c4f4f7ec7a65e72dbf,select top five leads,2023-03-28T12:21:33.698+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,dc6bb5d22e1ca6306bcc0f7b7d6f9661,tell sales assistant to call contact person of leads,2023-03-28T12:21:33.701+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,6da5e0fa54de56d208e24ba51887d976,check open leads,2023-03-28T12:21:34.295+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,56e74a269f1bb7a0599652d8143ecc86,send note to manager,2023-03-28T12:21:34.842+02:00,calling,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,4b502f40c5c6abf56b2ed92a2071c571,call customer,2023-03-28T12:21:34.831+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,4d468d1b1f0a3092be8abc5544bb21a6,call customer,2023-03-28T12:21:34.906+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,d864957445608451cfc1aa6e7912f967,send note to manager,2023-03-28T12:21:34.907+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,e32dd98f5f8e6ab0d742678c608f6bf2,check open leads,2023-03-28T12:21:35.318+02:00,calling,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,cdb8e1ca7d795a84e0dfcd5bb71e2e23,call customer,2023-03-28T12:21:35.475+02:00,done,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,d68d0e09a9a0f5fbc7e980e1502ae1ed,send note to manager,2023-03-28T12:21:35.477+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,ee9424ef3751d3c2fe500cb302462966,call customer,2023-03-28T12:21:35.864+02:00,done,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,c098e511a1848eebcb2f0d0ef9c8e384,call customer,2023-03-28T12:21:35.866+02:00,calling,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,d864957445608451cfc1aa6e7912f967,send note to manager,2023-03-28T12:21:35.912+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,fc5daf9f0607004d1221dee5ff54c190,process lead,2023-03-28T12:21:35.917+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,3e52fccc7583185d6e4dc86abf3944cd,select top five leads,2023-03-28T12:21:36.326+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,6da5e0fa54de56d208e24ba51887d976,check open leads,2023-03-28T12:21:36.322+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,b82be5e933387c3bf3406164644cdac9,process lead,2023-03-28T12:21:36.487+02:00,calling,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,d68d0e09a9a0f5fbc7e980e1502ae1ed,send note to manager,2023-03-28T12:21:36.482+02:00,done,u,sales assistant,u,u
+4d107c25-be17-4f90-8174-8906140b1b58,059e8e0126e0602d53fc8bc0838e336c,process lead,2023-03-28T12:21:36.645+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,dc6bb5d22e1ca6306bcc0f7b7d6f9661,tell sales assistant to call contact person of leads,2023-03-28T12:21:36.705+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,7cf67ffb27895d71caa73806e36ce811,call customer,2023-03-28T12:21:36.707+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,b699ebc3853178c1ed42c93bc0806f81,process lead,2023-03-28T12:21:36.785+02:00,done,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,d1344170b9d9f07aa0ad09a3969b359a,call customer,2023-03-28T12:21:36.790+02:00,calling,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,56e74a269f1bb7a0599652d8143ecc86,send note to manager,2023-03-28T12:21:36.854+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,cfa42b5015da9c85ae92cd409ee01513,process lead,2023-03-28T12:21:36.857+02:00,calling,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,62efb596fd84c3c5911b84837ee9a2b8,process lead,2023-03-28T12:21:36.943+02:00,done,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,624944937ea5b0fef0e8fcc199f851ff,call customer,2023-03-28T12:21:36.947+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,fc5a75c8ee76c39a733e3608e4f5111e,process lead,2023-03-28T12:21:38.062+02:00,done,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,2ac493842dacdc484b3d650889a04886,call customer,2023-03-28T12:21:38.068+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,7cf67ffb27895d71caa73806e36ce811,call customer,2023-03-28T12:21:38.713+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,b5ec8282445dd6cd50384446d5cd2588,call customer,2023-03-28T12:21:38.716+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,c098e511a1848eebcb2f0d0ef9c8e384,call customer,2023-03-28T12:21:38.875+02:00,done,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,e9d5369ecfb89d049e0d6f04c85c684a,send note to manager,2023-03-28T12:21:38.883+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,1352cdde451af105678f8b7eee162cbc,select top five leads,2023-03-28T12:21:39.344+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,e32dd98f5f8e6ab0d742678c608f6bf2,check open leads,2023-03-28T12:21:39.341+02:00,done,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,d1344170b9d9f07aa0ad09a3969b359a,call customer,2023-03-28T12:21:39.801+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,e8a51ece6755ace6ffd622e37cda0b96,call customer,2023-03-28T12:21:39.807+02:00,calling,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,3e52fccc7583185d6e4dc86abf3944cd,select top five leads,2023-03-28T12:21:40.338+02:00,done,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,5bcd58d0917c25df2e28fe5461cfcd26,tell sales assistant to call contact person of leads,2023-03-28T12:21:40.345+02:00,calling,u,manager,u,u
+e365e017-2214-4ed3-b992-bae41917a662,041e20daef2baf0f7bc8d3b0e5b85c35,check open leads,2023-03-28T12:21:40.531+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,b5ec8282445dd6cd50384446d5cd2588,call customer,2023-03-28T12:21:40.724+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,42406ae0912a6e05473357b63870ac1f,send note to manager,2023-03-28T12:21:40.726+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,edf1b989c8516a7fe6d27b5d5f9be782,process lead,2023-03-28T12:21:40.893+02:00,calling,u,manager,u,u
+2b8456c1-a483-495c-9020-07479c79e996,e9d5369ecfb89d049e0d6f04c85c684a,send note to manager,2023-03-28T12:21:40.889+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,fc5daf9f0607004d1221dee5ff54c190,process lead,2023-03-28T12:21:40.922+02:00,done,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,72ad6af8bc66cc90223ecaa05bf638a7,call customer,2023-03-28T12:21:40.925+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,624944937ea5b0fef0e8fcc199f851ff,call customer,2023-03-28T12:21:40.957+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,11540b85e3fd3498e9d6d574a913c91f,send note to manager,2023-03-28T12:21:40.959+02:00,calling,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,5bcd58d0917c25df2e28fe5461cfcd26,tell sales assistant to call contact person of leads,2023-03-28T12:21:41.357+02:00,done,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,3e4c7ab049692cbaca1653d980630891,call customer,2023-03-28T12:21:41.363+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,b82be5e933387c3bf3406164644cdac9,process lead,2023-03-28T12:21:41.496+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,238b2463ce48d3fc4a19ff941f0176d0,call customer,2023-03-28T12:21:41.501+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,d14bbe8dc7e247e6368365ff259a916d,process lead,2023-03-28T12:21:41.738+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,42406ae0912a6e05473357b63870ac1f,send note to manager,2023-03-28T12:21:41.732+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,e8a51ece6755ace6ffd622e37cda0b96,call customer,2023-03-28T12:21:41.816+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,495dcf77d1ee96d31fd13dda37d5e161,send note to manager,2023-03-28T12:21:41.821+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,2ac493842dacdc484b3d650889a04886,call customer,2023-03-28T12:21:42.078+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,ae0b8eef63086a725a71221a6a495380,send note to manager,2023-03-28T12:21:42.081+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,495dcf77d1ee96d31fd13dda37d5e161,send note to manager,2023-03-28T12:21:42.827+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,24c2e368b4da880708b5241d93b3c68e,process lead,2023-03-28T12:21:42.832+02:00,calling,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,11540b85e3fd3498e9d6d574a913c91f,send note to manager,2023-03-28T12:21:42.965+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e69731f07c07246f25ef72399da34853,process lead,2023-03-28T12:21:42.968+02:00,calling,u,manager,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,ae0b8eef63086a725a71221a6a495380,send note to manager,2023-03-28T12:21:43.088+02:00,done,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,5779db14f9b52a5da40f66c2f1596922,process lead,2023-03-28T12:21:43.094+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,1352cdde451af105678f8b7eee162cbc,select top five leads,2023-03-28T12:21:43.352+02:00,done,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,fbf39febf0075e1ae39b9ca5a5fadd20,tell sales assistant to call contact person of leads,2023-03-28T12:21:43.357+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,cfa42b5015da9c85ae92cd409ee01513,process lead,2023-03-28T12:21:43.864+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,3381321d8b1853578e72cb1dd61a4030,call customer,2023-03-28T12:21:43.871+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,83906052d6a2cff40e5c4eccfc5e6516,send note to manager,2023-03-28T12:21:44.508+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,238b2463ce48d3fc4a19ff941f0176d0,call customer,2023-03-28T12:21:44.506+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,72ad6af8bc66cc90223ecaa05bf638a7,call customer,2023-03-28T12:21:44.934+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,bd35f63e7763335c5d15c3879399745f,call customer,2023-03-28T12:21:44.938+02:00,calling,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,3e4c7ab049692cbaca1653d980630891,call customer,2023-03-28T12:21:45.379+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,0c931c1f0af5218e75f2eab2599ac4be,check open leads,2023-03-28T12:21:45.425+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,7d9020754b519a7cd67e7b030474e760,call customer,2023-03-28T12:21:45.387+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,65a5edcfbdd55269af1c3e1fb21edb02,select top five leads,2023-03-28T12:21:45.559+02:00,calling,u,manager,u,u
+e365e017-2214-4ed3-b992-bae41917a662,041e20daef2baf0f7bc8d3b0e5b85c35,check open leads,2023-03-28T12:21:45.553+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,3381321d8b1853578e72cb1dd61a4030,call customer,2023-03-28T12:21:45.880+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,9553ba2e3ca3092127da19672ce6f9d1,send note to manager,2023-03-28T12:21:45.887+02:00,calling,u,sales assistant,u,u
+2b8456c1-a483-495c-9020-07479c79e996,edf1b989c8516a7fe6d27b5d5f9be782,process lead,2023-03-28T12:21:45.897+02:00,done,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,1c4f751659fcd6497a407b3a52758c1e,call customer,2023-03-28T12:21:46.373+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,fbf39febf0075e1ae39b9ca5a5fadd20,tell sales assistant to call contact person of leads,2023-03-28T12:21:46.368+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,83906052d6a2cff40e5c4eccfc5e6516,send note to manager,2023-03-28T12:21:46.519+02:00,done,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,9a12f83e5368a186d038af2061cf3ca7,process lead,2023-03-28T12:21:46.522+02:00,calling,u,manager,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,bd35f63e7763335c5d15c3879399745f,call customer,2023-03-28T12:21:46.947+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,10c5272f5ea9a52be810bf545a64f422,call customer,2023-03-28T12:21:46.954+02:00,calling,u,sales assistant,u,u
+7a7d269a-173d-4473-9cf2-49fc321bb939,5779db14f9b52a5da40f66c2f1596922,process lead,2023-03-28T12:21:47.099+02:00,done,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,0c931c1f0af5218e75f2eab2599ac4be,check open leads,2023-03-28T12:21:47.438+02:00,done,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,799d7405b43b654699836373436095cb,select top five leads,2023-03-28T12:21:47.442+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,d14bbe8dc7e247e6368365ff259a916d,process lead,2023-03-28T12:21:47.744+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,0a2b9dc064ce760c05382c09a102145a,call customer,2023-03-28T12:21:47.747+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,24c2e368b4da880708b5241d93b3c68e,process lead,2023-03-28T12:21:47.840+02:00,done,u,manager,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,8f5278511baf57a41361558991f5d366,call customer,2023-03-28T12:21:47.847+02:00,calling,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,9553ba2e3ca3092127da19672ce6f9d1,send note to manager,2023-03-28T12:21:47.895+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,1c2f81dd1bac546464b8bb8f9ebe7cde,process lead,2023-03-28T12:21:47.902+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,1c4f751659fcd6497a407b3a52758c1e,call customer,2023-03-28T12:21:49.384+02:00,done,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,73bbb37c2e9954c38cc314aa56b93a63,send note to manager,2023-03-28T12:21:49.389+02:00,calling,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,7d9020754b519a7cd67e7b030474e760,call customer,2023-03-28T12:21:49.396+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,799d7405b43b654699836373436095cb,select top five leads,2023-03-28T12:21:49.450+02:00,done,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,3008658880a03d30d7befd127ede39ed,tell sales assistant to call contact person of leads,2023-03-28T12:21:49.452+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,ef058aa6c66118eb7c4e6cffefeeddee,call customer,2023-03-28T12:21:49.403+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,e92175fd9b30b2af807b6db2914d620e,tell sales assistant to call contact person of leads,2023-03-28T12:21:49.573+02:00,calling,u,manager,u,u
+e365e017-2214-4ed3-b992-bae41917a662,65a5edcfbdd55269af1c3e1fb21edb02,select top five leads,2023-03-28T12:21:49.568+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,a820afa9a0a011bcb18b2d233860758b,send note to manager,2023-03-28T12:21:49.761+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,0a2b9dc064ce760c05382c09a102145a,call customer,2023-03-28T12:21:49.755+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,8f5278511baf57a41361558991f5d366,call customer,2023-03-28T12:21:49.853+02:00,done,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,81fc700af19c83d9796e57dba27a0b81,call customer,2023-03-28T12:21:49.858+02:00,calling,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,e69731f07c07246f25ef72399da34853,process lead,2023-03-28T12:21:49.973+02:00,done,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,37c2413bc068acd91cd21a005f9459e4,call customer,2023-03-28T12:21:49.975+02:00,calling,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,3008658880a03d30d7befd127ede39ed,tell sales assistant to call contact person of leads,2023-03-28T12:21:50.455+02:00,done,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,f2567664303ab1a9ca22020b5f2acc64,call customer,2023-03-28T12:21:50.459+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,74ff84701558c6ae5c53d409a615cb47,process lead,2023-03-28T12:21:50.771+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,a820afa9a0a011bcb18b2d233860758b,send note to manager,2023-03-28T12:21:50.767+02:00,done,u,sales assistant,u,u
+c7c7d58b-8b7c-4c95-947f-90c2320c811d,10c5272f5ea9a52be810bf545a64f422,call customer,2023-03-28T12:21:50.960+02:00,done,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,ef142e187e5e659c5d36a26933d3accf,process lead,2023-03-28T12:21:51.402+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,73bbb37c2e9954c38cc314aa56b93a63,send note to manager,2023-03-28T12:21:51.396+02:00,done,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,fb39921bbabda49b4b53eee781299f93,call customer,2023-03-28T12:21:51.411+02:00,calling,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,ef058aa6c66118eb7c4e6cffefeeddee,call customer,2023-03-28T12:21:51.409+02:00,done,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,9a12f83e5368a186d038af2061cf3ca7,process lead,2023-03-28T12:21:51.529+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,51da809058af83ad1926e8e6d5bd9798,call customer,2023-03-28T12:21:51.534+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,e92175fd9b30b2af807b6db2914d620e,tell sales assistant to call contact person of leads,2023-03-28T12:21:51.578+02:00,done,u,manager,u,u
+e365e017-2214-4ed3-b992-bae41917a662,60fac3e6a5e834e10c6aa897f2a3b35a,call customer,2023-03-28T12:21:51.582+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,4f512b0b9e517ce0ffb1643c700eff0e,check open leads,2023-03-28T12:21:51.755+02:00,calling,u,manager,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,37c2413bc068acd91cd21a005f9459e4,call customer,2023-03-28T12:21:51.980+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,bae42a80b1f5d24e84e0371e8535111a,call customer,2023-03-28T12:21:51.983+02:00,calling,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,c1134b68908942f5d150a105dd74a577,call customer,2023-03-28T12:21:52.467+02:00,calling,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,f2567664303ab1a9ca22020b5f2acc64,call customer,2023-03-28T12:21:52.464+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,1c2f81dd1bac546464b8bb8f9ebe7cde,process lead,2023-03-28T12:21:52.906+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,3b8658a2776702d9bd05f4b84c3ef154,call customer,2023-03-28T12:21:52.909+02:00,calling,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,fb39921bbabda49b4b53eee781299f93,call customer,2023-03-28T12:21:53.415+02:00,done,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,628b996e5777f5a04f8026b5d4dce41a,call customer,2023-03-28T12:21:53.418+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,51da809058af83ad1926e8e6d5bd9798,call customer,2023-03-28T12:21:53.545+02:00,done,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,dcd4c9432e904edb78d13675cfc693a7,call customer,2023-03-28T12:21:53.552+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,60fac3e6a5e834e10c6aa897f2a3b35a,call customer,2023-03-28T12:21:53.588+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,60bfa137d09e689231d06fd1282c06a1,send note to manager,2023-03-28T12:21:53.590+02:00,calling,u,sales assistant,u,u
+59bce01d-1506-4e4b-93eb-e85929718e05,81fc700af19c83d9796e57dba27a0b81,call customer,2023-03-28T12:21:53.864+02:00,done,u,sales assistant,u,u
+132b87a4-99de-4d32-ab80-c4760ce8334c,bae42a80b1f5d24e84e0371e8535111a,call customer,2023-03-28T12:21:53.988+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,c1134b68908942f5d150a105dd74a577,call customer,2023-03-28T12:21:54.472+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,754889c7a4de8d91fa941dc96a87f1f7,call customer,2023-03-28T12:21:54.474+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,60bfa137d09e689231d06fd1282c06a1,send note to manager,2023-03-28T12:21:54.595+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,2a5e47aa80024c65de3ef79c4ccaf32c,process lead,2023-03-28T12:21:54.599+02:00,calling,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,4f512b0b9e517ce0ffb1643c700eff0e,check open leads,2023-03-28T12:21:54.778+02:00,done,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,37bdbbe79de64d1aa61686dc7a4145a8,select top five leads,2023-03-28T12:21:54.782+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,3b8658a2776702d9bd05f4b84c3ef154,call customer,2023-03-28T12:21:54.916+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,f14605ae3b24ba71dc6ba9b339a48b22,send note to manager,2023-03-28T12:21:54.921+02:00,calling,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,f14605ae3b24ba71dc6ba9b339a48b22,send note to manager,2023-03-28T12:21:55.928+02:00,done,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,26fe3d39e75cd688594b8dace70dce2e,process lead,2023-03-28T12:21:55.934+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,628b996e5777f5a04f8026b5d4dce41a,call customer,2023-03-28T12:21:56.422+02:00,done,u,sales assistant,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,e5574850bb28d9a3f803de9c6a17a8b3,send note to manager,2023-03-28T12:21:56.426+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,dcd4c9432e904edb78d13675cfc693a7,call customer,2023-03-28T12:21:56.557+02:00,done,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,1bf59be79f13146b15368d8e8901e054,call customer,2023-03-28T12:21:56.560+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,74ff84701558c6ae5c53d409a615cb47,process lead,2023-03-28T12:21:56.777+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,e11c74868dfe6efd15bd24cb8a8c6e17,call customer,2023-03-28T12:21:56.780+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,724251be2ae79fb04a56d83041e96c6d,tell sales assistant to call contact person of leads,2023-03-28T12:21:56.791+02:00,calling,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,37bdbbe79de64d1aa61686dc7a4145a8,select top five leads,2023-03-28T12:21:56.789+02:00,done,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,9ee2949fa0ba8cb7957b6ea80219c109,process lead,2023-03-28T12:21:57.438+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,e5574850bb28d9a3f803de9c6a17a8b3,send note to manager,2023-03-28T12:21:57.431+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,52485c9732adb2e1853ddda43bf18de4,call customer,2023-03-28T12:21:57.485+02:00,calling,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,754889c7a4de8d91fa941dc96a87f1f7,call customer,2023-03-28T12:21:57.480+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,69f19ef768deb3bf11fb06fe5c1d45bc,check open leads,2023-03-28T12:21:58.173+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,ef142e187e5e659c5d36a26933d3accf,process lead,2023-03-28T12:21:58.407+02:00,done,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,674c90603bb3882ed2a049a942006fc3,call customer,2023-03-28T12:21:58.409+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,724251be2ae79fb04a56d83041e96c6d,tell sales assistant to call contact person of leads,2023-03-28T12:21:58.794+02:00,done,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,212ca4ea0d9602823ba92a54643add83,call customer,2023-03-28T12:21:58.797+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,e11c74868dfe6efd15bd24cb8a8c6e17,call customer,2023-03-28T12:21:59.788+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,61eb3339ddb22a0cee02c02f686e0f23,send note to manager,2023-03-28T12:21:59.799+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,4a151859ab3df24c1380f759ee66790f,call customer,2023-03-28T12:22:00.418+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,674c90603bb3882ed2a049a942006fc3,call customer,2023-03-28T12:22:00.413+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,f5b51348028972e69ce239de1619dfee,send note to manager,2023-03-28T12:22:00.500+02:00,calling,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,52485c9732adb2e1853ddda43bf18de4,call customer,2023-03-28T12:22:00.495+02:00,done,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,1bf59be79f13146b15368d8e8901e054,call customer,2023-03-28T12:22:00.569+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,2a5e47aa80024c65de3ef79c4ccaf32c,process lead,2023-03-28T12:22:00.604+02:00,done,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,589c1c3779d37716cf5e00a4ffd3e574,send note to manager,2023-03-28T12:22:00.573+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,d52f3defe15bbd5c61d2b413f3739a11,call customer,2023-03-28T12:22:00.606+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,712971056cc28fb98953fe668c30671f,check open leads,2023-03-28T12:22:00.640+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,61eb3339ddb22a0cee02c02f686e0f23,send note to manager,2023-03-28T12:22:00.808+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,2fd20f8ef73c002be957fd890f144341,process lead,2023-03-28T12:22:00.818+02:00,calling,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,26fe3d39e75cd688594b8dace70dce2e,process lead,2023-03-28T12:22:00.937+02:00,done,u,manager,u,u
+1870e115-f243-4257-855a-251e81ec86d1,b55d9bc30519ec5d438ceced1d0e4480,call customer,2023-03-28T12:22:00.941+02:00,calling,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,d45ba0d1aaa5250aa3dd7daefbd393b1,check open leads,2023-03-28T12:22:01.305+02:00,calling,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,f5b51348028972e69ce239de1619dfee,send note to manager,2023-03-28T12:22:01.505+02:00,done,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,e0c7eb193bec156ba5f28453b7c0ad10,process lead,2023-03-28T12:22:01.509+02:00,calling,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,212ca4ea0d9602823ba92a54643add83,call customer,2023-03-28T12:22:01.803+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,f0a16660ce8ca8eaee121995686e5c05,send note to manager,2023-03-28T12:22:01.809+02:00,calling,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,69f19ef768deb3bf11fb06fe5c1d45bc,check open leads,2023-03-28T12:22:02.195+02:00,done,u,manager,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,c65e86aa7ea76806344d842a26bf1621,select top five leads,2023-03-28T12:22:02.207+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,4a151859ab3df24c1380f759ee66790f,call customer,2023-03-28T12:22:02.426+02:00,done,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,57630af2353ff828dd5a99156ef2b6ca,send note to manager,2023-03-28T12:22:02.432+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,a06bd283b0cb342df69b87e3bea0fe76,process lead,2023-03-28T12:22:02.582+02:00,calling,u,manager,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,589c1c3779d37716cf5e00a4ffd3e574,send note to manager,2023-03-28T12:22:02.579+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,d52f3defe15bbd5c61d2b413f3739a11,call customer,2023-03-28T12:22:02.611+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,c5d13387807c89f463f64b5bc0d0819f,call customer,2023-03-28T12:22:02.613+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,e9979bce40d27ca6d2a915f817234161,process lead,2023-03-28T12:22:02.822+02:00,calling,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,f0a16660ce8ca8eaee121995686e5c05,send note to manager,2023-03-28T12:22:02.816+02:00,done,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,57630af2353ff828dd5a99156ef2b6ca,send note to manager,2023-03-28T12:22:03.440+02:00,done,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,faa5105739e7735318c5c653240c677e,process lead,2023-03-28T12:22:03.444+02:00,calling,u,manager,u,u
+3fefddfd-db52-4299-984d-7e079ef0619b,9ee2949fa0ba8cb7957b6ea80219c109,process lead,2023-03-28T12:22:03.446+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,712971056cc28fb98953fe668c30671f,check open leads,2023-03-28T12:22:04.651+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,fbb0ba61decb5534d1a1e253f4b80899,select top five leads,2023-03-28T12:22:04.655+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,2fd20f8ef73c002be957fd890f144341,process lead,2023-03-28T12:22:04.827+02:00,done,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,e9757a4cfe33fa61602b58c708ad06b7,call customer,2023-03-28T12:22:04.833+02:00,calling,u,sales assistant,u,u
+1870e115-f243-4257-855a-251e81ec86d1,b55d9bc30519ec5d438ceced1d0e4480,call customer,2023-03-28T12:22:04.945+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,c65e86aa7ea76806344d842a26bf1621,select top five leads,2023-03-28T12:22:05.214+02:00,done,u,manager,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,5d1d627a4c67117329cd37e11930c2d3,tell sales assistant to call contact person of leads,2023-03-28T12:22:05.219+02:00,calling,u,manager,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,d45ba0d1aaa5250aa3dd7daefbd393b1,check open leads,2023-03-28T12:22:05.317+02:00,done,u,manager,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,671b64e9d5e618ef8ee4416801b9305b,select top five leads,2023-03-28T12:22:05.318+02:00,calling,u,manager,u,u
+e365e017-2214-4ed3-b992-bae41917a662,c5d13387807c89f463f64b5bc0d0819f,call customer,2023-03-28T12:22:05.619+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,2606e4bdfac385e131ea866eb02bd519,call customer,2023-03-28T12:22:05.621+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,e9757a4cfe33fa61602b58c708ad06b7,call customer,2023-03-28T12:22:06.841+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,5fc214fc1078bdb56a43f590b560dabf,send note to manager,2023-03-28T12:22:06.844+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,faa5105739e7735318c5c653240c677e,process lead,2023-03-28T12:22:07.451+02:00,done,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,25437523ca74f7b88a56e4860947297a,call customer,2023-03-28T12:22:07.456+02:00,calling,u,sales assistant,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,e0c7eb193bec156ba5f28453b7c0ad10,process lead,2023-03-28T12:22:07.515+02:00,done,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,9f3e25c3144c57464d2e6184b3c96520,call customer,2023-03-28T12:22:07.522+02:00,calling,u,sales assistant,u,u
+185e5937-dcd5-4b68-875a-2ecefdf4c734,a06bd283b0cb342df69b87e3bea0fe76,process lead,2023-03-28T12:22:07.589+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,fbb0ba61decb5534d1a1e253f4b80899,select top five leads,2023-03-28T12:22:07.667+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,a2d7a224fa7e992865371a3739731b06,tell sales assistant to call contact person of leads,2023-03-28T12:22:07.672+02:00,calling,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,e9979bce40d27ca6d2a915f817234161,process lead,2023-03-28T12:22:07.829+02:00,done,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,f5ad928efab89fd7ca46e207b32cf519,call customer,2023-03-28T12:22:07.835+02:00,calling,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,5d1d627a4c67117329cd37e11930c2d3,tell sales assistant to call contact person of leads,2023-03-28T12:22:08.227+02:00,done,u,manager,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,b65b7a3c9cb589fca9a24776c9db36a5,call customer,2023-03-28T12:22:08.236+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,82e6e0cb9ffc8db5293d088e98a05d06,call customer,2023-03-28T12:22:08.634+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,2606e4bdfac385e131ea866eb02bd519,call customer,2023-03-28T12:22:08.628+02:00,done,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,06bce31e0abb0a0a34048b006d4310b9,process lead,2023-03-28T12:22:08.862+02:00,calling,u,manager,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,5fc214fc1078bdb56a43f590b560dabf,send note to manager,2023-03-28T12:22:08.854+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,a4902cad2e930bd59b6a73641ae682cb,tell sales assistant to call contact person of leads,2023-03-28T12:22:09.333+02:00,calling,u,manager,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,671b64e9d5e618ef8ee4416801b9305b,select top five leads,2023-03-28T12:22:09.327+02:00,done,u,manager,u,u
+266374d4-2fe3-4bb7-b766-10c002d8a437,9f3e25c3144c57464d2e6184b3c96520,call customer,2023-03-28T12:22:09.531+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,a2d7a224fa7e992865371a3739731b06,tell sales assistant to call contact person of leads,2023-03-28T12:22:09.676+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,571a7c7a38e5dab51a170d41a8b30da0,call customer,2023-03-28T12:22:09.680+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,f5ad928efab89fd7ca46e207b32cf519,call customer,2023-03-28T12:22:09.842+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,3f2636d0162d7ff31d4f806bfc409b14,call customer,2023-03-28T12:22:09.846+02:00,calling,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,a4902cad2e930bd59b6a73641ae682cb,tell sales assistant to call contact person of leads,2023-03-28T12:22:10.340+02:00,done,u,manager,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,9d74d38e9cc8ecca4fbd0ba8acfb67f0,call customer,2023-03-28T12:22:10.345+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,82e6e0cb9ffc8db5293d088e98a05d06,call customer,2023-03-28T12:22:10.641+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,4883aefe6dad8b003dcebccec4e6d5c9,send note to manager,2023-03-28T12:22:10.645+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,a9586536b237513f104638964a9dd86f,call customer,2023-03-28T12:22:11.467+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,25437523ca74f7b88a56e4860947297a,call customer,2023-03-28T12:22:11.463+02:00,done,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,67c89e3546da55f0111d90e19d605d57,process lead,2023-03-28T12:22:11.657+02:00,calling,u,manager,u,u
+e365e017-2214-4ed3-b992-bae41917a662,4883aefe6dad8b003dcebccec4e6d5c9,send note to manager,2023-03-28T12:22:11.651+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,3f2636d0162d7ff31d4f806bfc409b14,call customer,2023-03-28T12:22:11.854+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,b8d46ac53ae54ee6b4fdeda61c1a19b7,call customer,2023-03-28T12:22:11.856+02:00,calling,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,b65b7a3c9cb589fca9a24776c9db36a5,call customer,2023-03-28T12:22:12.248+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,8cbb0fdb68d3015b8b5583500afda435,call customer,2023-03-28T12:22:12.251+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,571a7c7a38e5dab51a170d41a8b30da0,call customer,2023-03-28T12:22:13.688+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,fd952faf845b6417d8dda51f99ec0cf8,call customer,2023-03-28T12:22:13.699+02:00,calling,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,9d74d38e9cc8ecca4fbd0ba8acfb67f0,call customer,2023-03-28T12:22:14.353+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,90ba9cfba3b22e39bb79271ed0ab1449,call customer,2023-03-28T12:22:14.359+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,a9586536b237513f104638964a9dd86f,call customer,2023-03-28T12:22:15.475+02:00,done,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,5428bab8a1e456beabc63a4bb1b31795,send note to manager,2023-03-28T12:22:15.480+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,b8d46ac53ae54ee6b4fdeda61c1a19b7,call customer,2023-03-28T12:22:15.864+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,e03d7fa53fa3668b319a51318624807e,send note to manager,2023-03-28T12:22:15.867+02:00,calling,u,sales assistant,u,u
+2aebcdee-b502-4761-a6d7-0c8ba941909b,06bce31e0abb0a0a34048b006d4310b9,process lead,2023-03-28T12:22:15.869+02:00,done,u,manager,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,8cbb0fdb68d3015b8b5583500afda435,call customer,2023-03-28T12:22:16.259+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,87a3d5c192608be68e8e26cc66a14f6c,call customer,2023-03-28T12:22:16.266+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,7d673ae07a7ab7ad7f8d62792658f0c2,process lead,2023-03-28T12:22:16.493+02:00,calling,u,manager,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,5428bab8a1e456beabc63a4bb1b31795,send note to manager,2023-03-28T12:22:16.488+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,fd952faf845b6417d8dda51f99ec0cf8,call customer,2023-03-28T12:22:16.707+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,8427b7ac62dd6bf2cccfb5c5cfced7b8,call customer,2023-03-28T12:22:16.714+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,e03d7fa53fa3668b319a51318624807e,send note to manager,2023-03-28T12:22:16.871+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,93dd915b17dc0b6854e53ba2f4b24217,process lead,2023-03-28T12:22:16.874+02:00,calling,u,manager,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,90ba9cfba3b22e39bb79271ed0ab1449,call customer,2023-03-28T12:22:17.366+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,3917b710e3d108cc9b51564e58391f39,call customer,2023-03-28T12:22:17.368+02:00,calling,u,sales assistant,u,u
+e365e017-2214-4ed3-b992-bae41917a662,67c89e3546da55f0111d90e19d605d57,process lead,2023-03-28T12:22:18.666+02:00,done,u,manager,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,87a3d5c192608be68e8e26cc66a14f6c,call customer,2023-03-28T12:22:19.274+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,0745e6ce2e1eb801f91c41e8fdd49280,call customer,2023-03-28T12:22:19.280+02:00,calling,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,3917b710e3d108cc9b51564e58391f39,call customer,2023-03-28T12:22:19.372+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,74e0c118d65bce80f85f3d5eab0f67f9,call customer,2023-03-28T12:22:19.376+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,8427b7ac62dd6bf2cccfb5c5cfced7b8,call customer,2023-03-28T12:22:19.721+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,43005142e4fcaf6ee5998623d6e088d7,send note to manager,2023-03-28T12:22:19.726+02:00,calling,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,93dd915b17dc0b6854e53ba2f4b24217,process lead,2023-03-28T12:22:20.879+02:00,done,u,manager,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,66664a6e78c6f97ff8dc1c07436f1e5e,call customer,2023-03-28T12:22:20.886+02:00,calling,u,sales assistant,u,u
+9869e5da-1a45-4903-86f7-962c8ca3b441,7d673ae07a7ab7ad7f8d62792658f0c2,process lead,2023-03-28T12:22:21.499+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,61368368396d12a7c22710cd3c201b6f,process lead,2023-03-28T12:22:21.734+02:00,calling,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,43005142e4fcaf6ee5998623d6e088d7,send note to manager,2023-03-28T12:22:21.731+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,74e0c118d65bce80f85f3d5eab0f67f9,call customer,2023-03-28T12:22:22.384+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,6be111e22fad5706ae304b20cad0b3ad,call customer,2023-03-28T12:22:22.387+02:00,calling,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,756ac19f0c1aa2a059808b6dade49263,call customer,2023-03-28T12:22:23.296+02:00,calling,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,0745e6ce2e1eb801f91c41e8fdd49280,call customer,2023-03-28T12:22:23.289+02:00,done,u,sales assistant,u,u
+52e6a6d2-a739-4250-be9d-2cc263505ad8,66664a6e78c6f97ff8dc1c07436f1e5e,call customer,2023-03-28T12:22:23.892+02:00,done,u,sales assistant,u,u
+0d61dda9-5a5a-4235-9d5c-f2aec8081531,6be111e22fad5706ae304b20cad0b3ad,call customer,2023-03-28T12:22:24.395+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,756ac19f0c1aa2a059808b6dade49263,call customer,2023-03-28T12:22:26.305+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,61fa5afc4c637fa8a2fc6775f0cd8d81,send note to manager,2023-03-28T12:22:26.313+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,61368368396d12a7c22710cd3c201b6f,process lead,2023-03-28T12:22:26.738+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,325e46706af452312048872e3791b94c,call customer,2023-03-28T12:22:26.742+02:00,calling,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,61fa5afc4c637fa8a2fc6775f0cd8d81,send note to manager,2023-03-28T12:22:28.320+02:00,done,u,sales assistant,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,4d51065f0a2a6a0cc9f54998fccf7fae,process lead,2023-03-28T12:22:28.323+02:00,calling,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,325e46706af452312048872e3791b94c,call customer,2023-03-28T12:22:28.749+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,0fb31ec20dd5ef79596d6be9d643570b,send note to manager,2023-03-28T12:22:28.754+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,0fb31ec20dd5ef79596d6be9d643570b,send note to manager,2023-03-28T12:22:30.762+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,2be8ea561464acb7def0c2aaba64fad9,process lead,2023-03-28T12:22:30.768+02:00,calling,u,manager,u,u
+c455d29f-d946-486f-94b3-0a8b8c875d9c,4d51065f0a2a6a0cc9f54998fccf7fae,process lead,2023-03-28T12:22:34.330+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,2be8ea561464acb7def0c2aaba64fad9,process lead,2023-03-28T12:22:36.774+02:00,done,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,004c7a961bbcf5963902ac5d207767f5,call customer,2023-03-28T12:22:36.779+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,004c7a961bbcf5963902ac5d207767f5,call customer,2023-03-28T12:22:40.787+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,7a6ff41472a0ec96d70ef93a10eab675,send note to manager,2023-03-28T12:22:40.789+02:00,calling,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,a0c60f05444dde246a052a2494b44c5d,process lead,2023-03-28T12:22:41.799+02:00,calling,u,manager,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,7a6ff41472a0ec96d70ef93a10eab675,send note to manager,2023-03-28T12:22:41.794+02:00,done,u,sales assistant,u,u
+f5aeeab1-3e29-4dd9-866f-8f43424f0d6a,a0c60f05444dde246a052a2494b44c5d,process lead,2023-03-28T12:22:48.808+02:00,done,u,manager,u,u

@@ -1,0 +1,117 @@
+concept:instance,concept:event,concept:name,time:timestamp,lifecycle:transition,org:resource,org:role,org:unit,org:org
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,7086aea6630dbf19a87685d778fe0644,perform solvency check,2023-03-22T09:47:31.763+01:00,calling,u,clerk,financial department,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,2c678bae1481fe7008a4b40eeb8ad907,perform solvency check,2023-03-22T09:47:31.764+01:00,calling,u,clerk,financial department,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,7086aea6630dbf19a87685d778fe0644,perform solvency check,2023-03-22T09:47:35.780+01:00,done,u,clerk,financial department,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,2c678bae1481fe7008a4b40eeb8ad907,perform solvency check,2023-03-22T09:47:35.780+01:00,done,u,clerk,financial department,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,850a512fcc3c7b2c48d0d214abfba63d,inform customer,2023-03-22T09:47:35.783+01:00,calling,u,clerk,customer advisory,u
+1c829581-655b-4ad9-9673-bf502ac724c9,ba4491d96485b436e1e4c809a2086b1a,perform solvency check,2023-03-22T09:47:37.547+01:00,calling,u,clerk,financial department,u
+1c829581-655b-4ad9-9673-bf502ac724c9,48643084b1dc69dd1db6349270ed6dd1,perform solvency check,2023-03-22T09:47:37.540+01:00,calling,u,clerk,financial department,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,850a512fcc3c7b2c48d0d214abfba63d,inform customer,2023-03-22T09:47:37.791+01:00,done,u,clerk,customer advisory,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,589f28661890cb7d7cc0d6af6f5931ce,delete customer request,2023-03-22T09:47:37.797+01:00,calling,u,clerk,customer advisory,u
+1c829581-655b-4ad9-9673-bf502ac724c9,48643084b1dc69dd1db6349270ed6dd1,perform solvency check,2023-03-22T09:47:39.553+01:00,done,u,clerk,financial department,u
+81b4e0c4-873b-4115-afa3-3fa27b2bb7ec,589f28661890cb7d7cc0d6af6f5931ce,delete customer request,2023-03-22T09:47:39.805+01:00,done,u,clerk,customer advisory,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,fbbbcdc85d6ec97b1c241f3388252b03,perform solvency check,2023-03-22T09:47:39.978+01:00,calling,u,clerk,financial department,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,a46e9ce78b91812cff7cc07d41e42767,perform solvency check,2023-03-22T09:47:39.982+01:00,calling,u,clerk,financial department,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,a46e9ce78b91812cff7cc07d41e42767,perform solvency check,2023-03-22T09:47:41.009+01:00,done,u,clerk,financial department,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,916f002aeb357096d6b6ec21d60c9631,inform customer,2023-03-22T09:47:41.997+01:00,calling,u,clerk,customer advisory,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,fbbbcdc85d6ec97b1c241f3388252b03,perform solvency check,2023-03-22T09:47:41.994+01:00,done,u,clerk,financial department,u
+1c829581-655b-4ad9-9673-bf502ac724c9,4f32a79c893ac3b64ec52f7199594162,develop payment schedule,2023-03-22T09:47:42.571+01:00,calling,Anna,u,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,ba4491d96485b436e1e4c809a2086b1a,perform solvency check,2023-03-22T09:47:42.557+01:00,done,u,clerk,financial department,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,f4f54e07deace10aa9e1083764139839,perform solvency check,2023-03-22T09:47:43.469+01:00,calling,u,clerk,financial department,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,ea5df6f48b4256fc8db0f8c395919b0a,perform solvency check,2023-03-22T09:47:43.473+01:00,calling,u,clerk,financial department,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,916f002aeb357096d6b6ec21d60c9631,inform customer,2023-03-22T09:47:44.002+01:00,done,u,clerk,customer advisory,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,916f86d1c26c41bbadba666df6fed39d,delete customer request,2023-03-22T09:47:44.009+01:00,calling,u,clerk,customer advisory,u
+1c829581-655b-4ad9-9673-bf502ac724c9,4f32a79c893ac3b64ec52f7199594162,develop payment schedule,2023-03-22T09:47:44.578+01:00,done,Anna,u,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,85515730aff42f8e11f8f5d7c21df1a3,send schedule,2023-03-22T09:47:44.583+01:00,calling,u,u,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,85515730aff42f8e11f8f5d7c21df1a3,send schedule,2023-03-22T09:47:45.591+01:00,done,u,u,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,839bb170e5b0d922e0c47fd59e79d916,approve payment schedule,2023-03-22T09:47:45.603+01:00,calling,u,manager,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,1cb778514bd31eb319db5eb0fb31a31b,approve payment schedule,2023-03-22T09:47:45.604+01:00,calling,u,supervisor,u,u
+9037a661-9050-4b77-bb9f-1e2413f08b4e,916f86d1c26c41bbadba666df6fed39d,delete customer request,2023-03-22T09:47:46.017+01:00,done,u,clerk,customer advisory,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,ea5df6f48b4256fc8db0f8c395919b0a,perform solvency check,2023-03-22T09:47:46.490+01:00,done,u,clerk,financial department,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,4308da337b910e6975987ec0fa0479f0,perform solvency check,2023-03-22T09:47:46.974+01:00,calling,u,clerk,financial department,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,4178593fcca5ecfc8568770e846e3b73,perform solvency check,2023-03-22T09:47:46.964+01:00,calling,u,clerk,financial department,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,f4f54e07deace10aa9e1083764139839,perform solvency check,2023-03-22T09:47:47.492+01:00,done,u,clerk,financial department,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,33db8e3a730ff970972be44847f95d98,inform customer,2023-03-22T09:47:47.497+01:00,calling,u,clerk,customer advisory,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,4178593fcca5ecfc8568770e846e3b73,perform solvency check,2023-03-22T09:47:48.981+01:00,done,u,clerk,financial department,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,d0354298125aff9dd9c77475d9378d40,develop payment schedule,2023-03-22T09:47:48.993+01:00,calling,Hans,u,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,4308da337b910e6975987ec0fa0479f0,perform solvency check,2023-03-22T09:47:48.985+01:00,done,u,clerk,financial department,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,d0354298125aff9dd9c77475d9378d40,develop payment schedule,2023-03-22T09:47:48.996+01:00,done,Hans,u,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,b26cac89d757a77ce853573fdc315a6c,send schedule,2023-03-22T09:47:48.998+01:00,calling,u,u,u,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,680c01c93df5b23ab76cb847a6ad9334,delete customer request,2023-03-22T09:47:49.506+01:00,calling,u,clerk,customer advisory,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,33db8e3a730ff970972be44847f95d98,inform customer,2023-03-22T09:47:49.500+01:00,done,u,clerk,customer advisory,u
+1c829581-655b-4ad9-9673-bf502ac724c9,839bb170e5b0d922e0c47fd59e79d916,approve payment schedule,2023-03-22T09:47:49.614+01:00,done,u,manager,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,1cb778514bd31eb319db5eb0fb31a31b,approve payment schedule,2023-03-22T09:47:49.618+01:00,done,u,supervisor,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,787d985e01798d096eb66c71624c03bc,send email to customer,2023-03-22T09:47:49.627+01:00,done,system,u,u,u
+1c829581-655b-4ad9-9673-bf502ac724c9,787d985e01798d096eb66c71624c03bc,send email to customer,2023-03-22T09:47:49.624+01:00,calling,system,u,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,b26cac89d757a77ce853573fdc315a6c,send schedule,2023-03-22T09:47:50.003+01:00,done,u,u,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,b82268df1af5456828ed69a9c2deb5f5,approve payment schedule,2023-03-22T09:47:50.006+01:00,calling,u,manager,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,2731eb13215e112eb56a3b781bbb84c4,approve payment schedule,2023-03-22T09:47:50.009+01:00,calling,u,supervisor,u,u
+d8ec0c25-8488-430a-88e1-c85d45c8cc2f,680c01c93df5b23ab76cb847a6ad9334,delete customer request,2023-03-22T09:47:51.512+01:00,done,u,clerk,customer advisory,u
+73b70a72-3a93-49c4-817b-a06210f657af,404e51e48970ae2747bd281e25655d3c,perform solvency check,2023-03-22T09:47:51.527+01:00,calling,u,clerk,financial department,u
+73b70a72-3a93-49c4-817b-a06210f657af,8449a5f1382b639bef97b23880745864,perform solvency check,2023-03-22T09:47:51.532+01:00,calling,u,clerk,financial department,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,2731eb13215e112eb56a3b781bbb84c4,approve payment schedule,2023-03-22T09:47:52.017+01:00,done,u,supervisor,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,8449a5f1382b639bef97b23880745864,perform solvency check,2023-03-22T09:47:52.559+01:00,done,u,clerk,financial department,u
+73b70a72-3a93-49c4-817b-a06210f657af,404e51e48970ae2747bd281e25655d3c,perform solvency check,2023-03-22T09:47:53.548+01:00,done,u,clerk,financial department,u
+73b70a72-3a93-49c4-817b-a06210f657af,31988838081b08921b16d5e232cbd01b,develop payment schedule,2023-03-22T09:47:53.555+01:00,calling,Anna,u,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,b82268df1af5456828ed69a9c2deb5f5,approve payment schedule,2023-03-22T09:47:54.017+01:00,done,u,manager,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,f3de5462cb1daacb57a9a3787964e979,send email to customer,2023-03-22T09:47:54.027+01:00,calling,system,u,u,u
+70ff05e6-6209-443c-8e8e-d7b8460170f1,f3de5462cb1daacb57a9a3787964e979,send email to customer,2023-03-22T09:47:54.030+01:00,done,system,u,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,91cdc549f650bb5fd6b02b979a5c5253,send schedule,2023-03-22T09:47:55.570+01:00,calling,u,u,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,31988838081b08921b16d5e232cbd01b,develop payment schedule,2023-03-22T09:47:55.563+01:00,done,Anna,u,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,f9820ade8ab9d34ccab14a28f378622b,perform solvency check,2023-03-22T09:47:56.053+01:00,calling,u,clerk,financial department,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,76d1427a588ead9efe65f979ff98f18e,perform solvency check,2023-03-22T09:47:56.049+01:00,calling,u,clerk,financial department,u
+73b70a72-3a93-49c4-817b-a06210f657af,4d9f816f7d3e1205a89cfbfeab660286,approve payment schedule,2023-03-22T09:47:56.580+01:00,calling,u,manager,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,91cdc549f650bb5fd6b02b979a5c5253,send schedule,2023-03-22T09:47:56.574+01:00,done,u,u,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,bcc1661f28b02a995d9ec6e93e8b3480,approve payment schedule,2023-03-22T09:47:56.583+01:00,calling,u,supervisor,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,b20c63c06d194fed9b2d4a3089da343f,perform solvency check,2023-03-22T09:47:58.495+01:00,calling,u,clerk,financial department,u
+4be01f07-8e93-447b-9815-4e61b32baad3,284c998917f877a4813bc2ce05d34278,perform solvency check,2023-03-22T09:47:58.489+01:00,calling,u,clerk,financial department,u
+73b70a72-3a93-49c4-817b-a06210f657af,bcc1661f28b02a995d9ec6e93e8b3480,approve payment schedule,2023-03-22T09:47:58.590+01:00,done,u,supervisor,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,b20c63c06d194fed9b2d4a3089da343f,perform solvency check,2023-03-22T09:47:59.516+01:00,done,u,clerk,financial department,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,f9820ade8ab9d34ccab14a28f378622b,perform solvency check,2023-03-22T09:48:00.072+01:00,done,u,clerk,financial department,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,76d1427a588ead9efe65f979ff98f18e,perform solvency check,2023-03-22T09:48:00.077+01:00,done,u,clerk,financial department,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,1cecb7e82cccb2d9dbe8cec57cc1cb10,develop payment schedule,2023-03-22T09:48:00.090+01:00,calling,Anna,u,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,21505f5f3554e4703753979013191722,send schedule,2023-03-22T09:48:01.100+01:00,calling,u,u,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,1cecb7e82cccb2d9dbe8cec57cc1cb10,develop payment schedule,2023-03-22T09:48:01.097+01:00,done,Anna,u,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,21505f5f3554e4703753979013191722,send schedule,2023-03-22T09:48:02.107+01:00,done,u,u,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,7784df3d68cf7d910e5ab3dd2cd0b187,approve payment schedule,2023-03-22T09:48:02.113+01:00,calling,u,supervisor,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,91717b7b969526d20450ea3b8c2c3a70,approve payment schedule,2023-03-22T09:48:02.114+01:00,calling,u,manager,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,284c998917f877a4813bc2ce05d34278,perform solvency check,2023-03-22T09:48:02.513+01:00,done,u,clerk,financial department,u
+4be01f07-8e93-447b-9815-4e61b32baad3,3792687a78aedec59ec694e348d77b42,develop payment schedule,2023-03-22T09:48:02.520+01:00,calling,Hans,u,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,4570e325e38ec9ed867cdfe82b27932f,send schedule,2023-03-22T09:48:02.524+01:00,calling,u,u,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,3792687a78aedec59ec694e348d77b42,develop payment schedule,2023-03-22T09:48:02.523+01:00,done,Hans,u,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,0bd685b9f90b1690454e77d5539d6ce2,call customer to discuss alternative,2023-03-22T09:48:02.587+01:00,calling,u,u,customer advisory,u
+73b70a72-3a93-49c4-817b-a06210f657af,4d9f816f7d3e1205a89cfbfeab660286,approve payment schedule,2023-03-22T09:48:02.584+01:00,done,u,manager,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,4570e325e38ec9ed867cdfe82b27932f,send schedule,2023-03-22T09:48:03.532+01:00,done,u,u,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,062c4102092a3b5d77b493bee35407b9,approve payment schedule,2023-03-22T09:48:03.541+01:00,calling,u,manager,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,dda41a9dc67361cb52c93e4094afbeb2,approve payment schedule,2023-03-22T09:48:03.543+01:00,calling,u,supervisor,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,1b82c9aa3249b59cdfea57f038929233,perform solvency check,2023-03-22T09:48:03.592+01:00,calling,u,clerk,financial department,u
+fd91a71f-091f-4e57-a33a-529fcde78377,c542e7028b44ae42317838611254aae9,perform solvency check,2023-03-22T09:48:03.586+01:00,calling,u,clerk,financial department,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,7784df3d68cf7d910e5ab3dd2cd0b187,approve payment schedule,2023-03-22T09:48:05.121+01:00,done,u,supervisor,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,91717b7b969526d20450ea3b8c2c3a70,approve payment schedule,2023-03-22T09:48:06.123+01:00,done,u,manager,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,e302b30732e5d5c41e6a4dbf22cb1d0f,send email to customer,2023-03-22T09:48:06.130+01:00,calling,system,u,u,u
+54ff3a2d-787f-4db0-b0aa-835dc2210100,e302b30732e5d5c41e6a4dbf22cb1d0f,send email to customer,2023-03-22T09:48:06.136+01:00,done,system,u,u,u
+73b70a72-3a93-49c4-817b-a06210f657af,0bd685b9f90b1690454e77d5539d6ce2,call customer to discuss alternative,2023-03-22T09:48:06.593+01:00,done,u,u,customer advisory,u
+fd91a71f-091f-4e57-a33a-529fcde78377,c542e7028b44ae42317838611254aae9,perform solvency check,2023-03-22T09:48:06.607+01:00,done,u,clerk,financial department,u
+4be01f07-8e93-447b-9815-4e61b32baad3,dda41a9dc67361cb52c93e4094afbeb2,approve payment schedule,2023-03-22T09:48:07.558+01:00,done,u,supervisor,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,1b82c9aa3249b59cdfea57f038929233,perform solvency check,2023-03-22T09:48:07.605+01:00,done,u,clerk,financial department,u
+fd91a71f-091f-4e57-a33a-529fcde78377,168564537eba61493bc95a40f898486e,develop payment schedule,2023-03-22T09:48:07.613+01:00,calling,Hans,u,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,168564537eba61493bc95a40f898486e,develop payment schedule,2023-03-22T09:48:07.616+01:00,done,Hans,u,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,99eed41a7b406caeeb16e2ffa5d33149,send schedule,2023-03-22T09:48:07.618+01:00,calling,u,u,u,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,6c2e86f3cb368faf3be03d6dad28a974,perform solvency check,2023-03-22T09:48:08.520+01:00,calling,u,clerk,financial department,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,60b44960d1613006d6f570717500755d,perform solvency check,2023-03-22T09:48:08.512+01:00,calling,u,clerk,financial department,u
+fd91a71f-091f-4e57-a33a-529fcde78377,99eed41a7b406caeeb16e2ffa5d33149,send schedule,2023-03-22T09:48:08.622+01:00,done,u,u,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,3b717c1a28dfeda1147698626050b662,approve payment schedule,2023-03-22T09:48:08.628+01:00,calling,u,supervisor,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,be819511ed4ea861f43cd72c9d5f8629,approve payment schedule,2023-03-22T09:48:08.631+01:00,calling,u,manager,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,062c4102092a3b5d77b493bee35407b9,approve payment schedule,2023-03-22T09:48:09.551+01:00,done,u,manager,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,4f3b7352ac2bdcc101695c0442f7a9d1,send email to customer,2023-03-22T09:48:09.556+01:00,calling,system,u,u,u
+4be01f07-8e93-447b-9815-4e61b32baad3,4f3b7352ac2bdcc101695c0442f7a9d1,send email to customer,2023-03-22T09:48:09.563+01:00,done,system,u,u,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,60b44960d1613006d6f570717500755d,perform solvency check,2023-03-22T09:48:11.537+01:00,done,u,clerk,financial department,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,6c2e86f3cb368faf3be03d6dad28a974,perform solvency check,2023-03-22T09:48:11.539+01:00,done,u,clerk,financial department,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,d2702e8de76ae665628511f7be924104,inform customer,2023-03-22T09:48:11.545+01:00,calling,u,clerk,customer advisory,u
+fd91a71f-091f-4e57-a33a-529fcde78377,3b717c1a28dfeda1147698626050b662,approve payment schedule,2023-03-22T09:48:11.638+01:00,done,u,supervisor,u,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,d2702e8de76ae665628511f7be924104,inform customer,2023-03-22T09:48:13.550+01:00,done,u,clerk,customer advisory,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,24f68c10f80383b00be4349871639fcd,delete customer request,2023-03-22T09:48:13.557+01:00,calling,u,clerk,customer advisory,u
+5afbc0fe-5142-429b-a3b0-fc3df03471e9,24f68c10f80383b00be4349871639fcd,delete customer request,2023-03-22T09:48:15.569+01:00,done,u,clerk,customer advisory,u
+fd91a71f-091f-4e57-a33a-529fcde78377,be819511ed4ea861f43cd72c9d5f8629,approve payment schedule,2023-03-22T09:48:15.639+01:00,done,u,manager,u,u
+fd91a71f-091f-4e57-a33a-529fcde78377,94836c9b465dc6365bf7a7bb76fc3388,call customer to discuss alternative,2023-03-22T09:48:15.642+01:00,calling,u,u,customer advisory,u
+fd91a71f-091f-4e57-a33a-529fcde78377,94836c9b465dc6365bf7a7bb76fc3388,call customer to discuss alternative,2023-03-22T09:48:21.648+01:00,done,u,u,customer advisory,u

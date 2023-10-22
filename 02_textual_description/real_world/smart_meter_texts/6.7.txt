@@ -1,0 +1,1 @@
+A direct command from the central system is intended to disconnect loads that are billed via an interruptible tariff from the network within 30 seconds. For this purpose, the NB sends out a mass command (command type Broadcast), the corresponding load switching devices then switch off and return a status message to the central system.

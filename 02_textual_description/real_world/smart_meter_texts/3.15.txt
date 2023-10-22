@@ -1,0 +1,1 @@
+For a planned push operation, the readout plan (time (time grid) and data of any kind to be pushed) can be stored on the meter. This must be possible remotely from the central system - see also Use Case 1.1..

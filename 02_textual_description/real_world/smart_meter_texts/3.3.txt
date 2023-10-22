@@ -1,0 +1,2 @@
+The active power limit value of the meter must be able to be set locally via the service interface (WZ) of the meter. Optionally this is possible for both energy directions.
+A logbook entry is generated. This state is transmitted to the central system as an ALARM or EVENT when the transmission link (WAN) is available.

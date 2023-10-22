@@ -1,0 +1,15 @@
+The goal is to realize a prepayment function using smart meters. This function should be a
+Constitute a cashing facility for arrears but not used for billing purposes.
+The billing should continue via the existing tarif registers. This feature is therefore to be used exclusively to debt customers. A customer becomes a "debt customer" if a two-time reminder is included
+at least two weeks' grace period. The meter should therefore by
+Parameterization can be switched from normal operation to debt operation. It must be an additional
+Credit registers (in kWh or euro) are activated and shown on the display. This credit should be dependent
+be counted down from current consumption.
+It must be possible for the customer to increase the credit register again by loading credit.
+With credit "0", the meter should switch off within the legally permissible time range. It must be possible to enter the meter to load credit before activating the dept function.
+A configurable credit function should also be activatable. After confirmation by the customer should this Credit framework become active. The meter is then to be unlocked for on-site reconnection, and the customer has the possibility within the credit line still to draw electrical energy.
+Deactivation is done in the reverse order.
+
+Customers are registered by the central system as debt customers in compliance with legal framework conditions. The central system initiates the corresponding reparameterization of the meter from normal operation to dept operation.
+
+The meter works in prepayment mode. A credit register is visible to the customer on the display, at least in kWh (optionally also in euro). The credit will be counted down to 0.

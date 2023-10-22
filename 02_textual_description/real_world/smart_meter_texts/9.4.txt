@@ -1,0 +1,2 @@
+A credit balance is loaded on the prepayment meter via the local service interface (WZ). The successful Charge is reported back to the central system as ALARM or EVENT and is shown on the display. Every charge is written to the logbook of the meter.
+If the meter was switched off and there is now a credit available through a deposit, the meter is unblocked for the customer. The switch-on readiness is displayed on the meter.
