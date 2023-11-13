@@ -1,0 +1,56 @@
+<!-- Dataset Variables Explanation:
+
+	Actors and Entities:
+	
+	-> Customer: The customer using the energy meter.
+	-> Central System: The central system of the smart energy meter.
+	-> Meter: The smart energy meter.
+	
+	
+	Variables:
+
+	-> Customer_Req_AcDeac: Customer issued request of activation or deactivation of consumption time series display to the Central System.
+			- Binary value: 0 = deactivation and 1 = activation.
+	
+	-> Customer_Since: Date of when the customer activated the account.
+			- DateTime: date of customer account creation.
+			
+	-> Customer_Req_Time: Date of when a customer request was made.
+			- DateTime: date of customer request.
+			
+	-> CS_Req_AcDeac: Central System issued request of activation or deactivation of consumption time series display to the Meter.
+			- Binary value: 0 = deactivation and 1 = activation.
+			
+	-> Meter_Req_AcDeac: Meter issued request of activation or deactivation of consumption time series display based on customer's request.
+			- Binary value: 0 = deactivation and 1 = activation.
+			
+	-> logbook_entry: Entry reported in the logbook of the meter.
+			- String: Report to state the change, date and time.
+			
+	-> Meter_Rep_Event: Meter issued report of status to the Central System as ALARM or EVENT.
+			- Enum: ALARM or EVENT ("LP Display OFF" or "LP Display ON").
+	
+	-> CS_Rep_Event: CS issued report of status to the customer. "Allowed to see last 60 days consumption series" or "Not allowed...".
+			- Value: 0 = Not Allowed or 1 = Allowed.
+			
+	-> Customer_TimeSeries_View: Customer's view of the last 60 days consumption series.
+			- Value: 0 = Unavailable or 1 = Available.
+			
+	-> Customer_Req_View: Customer requests to view the last 60 days consumption series.
+			- DateTime: date of customer view request.
+			
+-->
+
+<!-- Customer should not be able to change the setting for load profile display every minute -->
+c1 = ({Customer_Req_AcDeac}, {CS_Req_AcDeac}, {directly follows}, {time_between([latest]Customer_Req_Time AND [current]Customer_Req_Time) > 60s})
+
+<!-- Data protection reasons if new customer within last 60 days -->
+c2 = ({Customer_Req_AcDeac}, {CS_Req_AcDeac}, {directly follows}, {Customer_Since > 60 days})
+
+<!-- When activated, the consumption time series is available on the meter display for customers. -->
+c3 = 
+
+<!-- When deactivated, the consumption time series is no longer visible on the meter display for customers. -->
+c4 = 
+
+
