@@ -1,0 +1,12 @@
+SLA Minimal Requirements:
+
+a.) For 100 (concurrent) requests "load profile on the display, e.g., activate/deactivate display consumption time series", 99% are to be concluded <= 5 min.
+
+b.) The request "load profile on the display, e.g., activate/deactivate display consumption time series" for a single meter should be concluded in 99% of cases <= 5 mins.
+
+c.) The provider must specify the percentage values and times for 200, 500, and 1,000 (simultaneous) requests "load profile on the display, e.g., activate/deactivate display consumption time series".
+
+
+
+
+
