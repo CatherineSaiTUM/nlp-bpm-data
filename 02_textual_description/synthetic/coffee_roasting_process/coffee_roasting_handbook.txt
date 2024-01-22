@@ -104,8 +104,3 @@ Some Quest owners–to increase the maximum batch capacity or alter the roast en
 
 ## Coffee Bean Cooling
 The supplied rectangular bean collector placed in the chaff collector cools the beans. This works but has several drawbacks. First, it is slow. Second, there is no air circulation through the roasting chamber with the bean collector inserted into the chaff collector. Use an external cooler instead, such as the optional one from the manufacturer or make one. Make a small box with a muffin fan in it and set the bean collector on top. The flow of ambient air through the beans is much more efficient than the Quests’ inbuilt cooling function.
-
-
-
-
-
