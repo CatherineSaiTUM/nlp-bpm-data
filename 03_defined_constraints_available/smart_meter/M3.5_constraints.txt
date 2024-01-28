@@ -1,32 +1,32 @@
-<!-- Customer should not be able to change the setting for load profile display every minute -->
-c1 = ({Request Consumption Display}, {Retrieve Customer's Last Request Time}, {directly follows}, {(timestamp - prev_req_timestamp) > 60 seconds})
+## Customer should not be able to change the setting for load profile display every minute
+c1 = ({Retrieve Customer's Last Request Time}, {Request Meter Synchronization}, {eventually follows}, {previous request timestamp >= 60 seconds})
 
-<!-- Data protection reasons if new customer within last 60 days -->
-c2 = ({Retrieve Customer's Last Request Time}, {Retrieve Customer's Registration Date}, {directly follows}, {(timestamp - cus_reg_timestamp) > 60 days})
+## Data protection reasons if new customer within last 60 days
+c2 = ({Retrieve Customer's Registration Date}, {Request Meter Synchronization}, {eventually follows}, {customer registration timestamp >= 60 days})
 
-<!-- Synchronization should happen at most twice in a day -->
-c3 = ({Retrieve Customer's Registration Date}, {Get Number of Customer Change Request}, {directly follows}, {count < 2})
+## Synchronization should happen at most twice in a day
+c3 = ({Get Number of Customer Change Request}, {Request Meter Synchronization}, {directly follows}, {change count in last 24hrs <= 2})
 
-<!-- Correct Synchronization value for activation (set correct value) -->
-c4 = ({Request Synchronization of Meter Settings}, {Activation of Consumption Display}, {directly follows}, {set_status == 1})
+## Correct Synchronization value for activation (set correct value)
+c4 = ({Request Synchronization of Meter Settings}, {Activation of Consumption Display}, {directly follows}, {synchronization status == 1})
 
-<!-- Correct Synchronization value for deactivation (set correct value) -->
-c5 = ({Request Synchronization of Meter Settings}, {Deactivation of Consumption Display}, {directly follows}, {set_status == 0})
+## Correct Synchronization value for deactivation (set correct value)
+c5 = ({Request Synchronization of Meter Settings}, {Deactivation of Consumption Display}, {directly follows}, {synchronization status == 0})
 
-<!-- The meter reports the correct status to the central system for activation -->
-c6 = ({Activation of Consumption Display}, {Register Logbook Entry}, {directly follows}, {rep_status == EVENT})
+## The meter logs the correct status in the logbook for activation
+c6 = ({Register Logbook Entry}, {Report Display Status}, {directly follows}, {logbook entry status == 'CS Display ON'})
 
-<!-- The meter reports the correct status to the central system for deactivation -->
-c7 = ({Deactivation of Consumption Display}, {Register Logbook Entry}, {directly follows}, {rep_status == ALARM})
+## The meter logs the correct status in the logbook for deactivation
+c7 = ({Register Logbook Entry}, {Report Display Status}, {directly follows}, {logbook entry status == 'CS Display OFF'})
 
-<!-- The meter reports the correct status to the central system for activation -->
-c8 = ({Register Logbook Entry}, {Report Display Status}, {directly follows}, {rep_status == EVENT})
+## The meter reports the correct status to the central system for activation
+c6 = ({Report Display Status}, {Register Display Status}, {directly follows}, {report entry status == EVENT})
 
-<!-- The meter reports the correct status to the central system for deactivation -->
-c9 = ({Register Logbook Entry}, {Report Display Status}, {directly follows}, {rep_status == ALARM})
+## The meter reports the correct status to the central system for deactivation
+c7 = ({Report Display Status}, {Register Display Status}, {directly follows}, {report entry status == ALARM})
 
-<!-- When activated, the consumption time series is available on the meter display for customers -->
-c10 = ({Register Display Status}, {View of Load Profile}, {directly follows}, {view_status == ON})
+## When activated, the consumption time series is available on the meter display for customers
+c10 = ({Activation of Consumption Display}, {View of Load Profile}, {directly follows}, {display view status == ON})
 
-<!-- When deactivated, the consumption time series is no longer visible on the meter display for customers -->
-c11 = ({Register Display Status}, {View of Load Profile}, {directly follows}, {view_status == OFF})
+## When deactivated, the consumption time series is no longer visible on the meter display for customers
+c11 = ({Deactivation of Consumption Display}, {View of Load Profile}, {directly follows}, {display view status == OFF})

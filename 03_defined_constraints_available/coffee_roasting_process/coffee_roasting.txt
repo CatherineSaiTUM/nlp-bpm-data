@@ -33,7 +33,7 @@ c20 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting
 c21 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == dark AND tray height < 175 AND temperature <= 560})
 
 c22 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 220 <= temperature <= 580})
-c23 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == dark AND tray height >= 170 AND 320 <= temperature <= 680})
-c24 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == dark AND tray height >= 170 AND 420 <= temperature <= 780})
-c25 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == dark AND tray height >= 170 AND 320 <= temperature <= 680})
-c26 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == dark AND tray height >= 170 AND temperature <= 580})
+c23 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 320 <= temperature <= 680})
+c24 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 420 <= temperature <= 780})
+c25 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 320 <= temperature <= 680})
+c26 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND temperature <= 580})
