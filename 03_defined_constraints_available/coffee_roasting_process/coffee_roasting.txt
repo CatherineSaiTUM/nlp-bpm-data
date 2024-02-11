@@ -1,39 +1,39 @@
 ## Topology Order
-c1 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree = medium OR roasting degree == dark})
-c2 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == dark})
+c1 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == 1 OR roasting degree == 2})
+c2 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == 2})
 
 
 ## Gold Standard: light roast
-c3 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == light AND tray height < 180 AND 120 <= temperature <= 400})
-c4 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == light AND tray height < 180 AND 220 <= temperature <= 500})
-c5 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {roasting degree == light AND tray height < 180 AND temperature <= 550})
+c3 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == 0 AND tray height < 180 AND 120 <= temperature <= 400})
+c4 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == 0 AND tray height < 180 AND 220 <= temperature <= 500})
+c5 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {roasting degree == 0 AND tray height < 180 AND temperature <= 550})
 
-c6 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == light AND tray height >= 180 AND 140 <= temperature <= 420})
-c7 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == light AND tray height >= 180 AND 240 <= temperature <= 520})
-c8 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {roasting degree == light AND tray height >= 180 AND temperature <= 570})
+c6 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == 0 AND tray height >= 180 AND 140 <= temperature <= 420})
+c7 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == 0 AND tray height >= 180 AND 240 <= temperature <= 520})
+c8 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {roasting degree == 0 AND tray height >= 180 AND temperature <= 570})
 
 
 ## Gold Standard: medium roast
-c9 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == medium AND tray height < 170 AND 170 <= temperature <= 450})
-c10 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == medium AND tray height < 170 AND 270 <= temperature <= 550})
-c11 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == medium AND tray height < 170 AND 370 <= temperature <= 650})
-c12 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {roasting degree == medium AND tray height < 170 AND temperature <= 550})
+c9 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == 1 AND tray height < 170 AND 170 <= temperature <= 450})
+c10 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == 1 AND tray height < 170 AND 270 <= temperature <= 550})
+c11 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == 1 AND tray height < 170 AND 370 <= temperature <= 650})
+c12 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {roasting degree == 1 AND tray height < 170 AND temperature <= 550})
 
-c13 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == medium AND tray height >= 170 AND 180 <= temperature <= 460})
-c14 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == medium AND tray height >= 170 AND 290 <= temperature <= 570})
-c15 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == medium AND tray height >= 170 AND 390 <= temperature <= 670})
-c16 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {roasting degree == medium AND tray height >= 170 AND temperature <= 560})
+c13 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == 1 AND tray height >= 170 AND 180 <= temperature <= 460})
+c14 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == 1 AND tray height >= 170 AND 290 <= temperature <= 570})
+c15 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == 1 AND tray height >= 170 AND 390 <= temperature <= 670})
+c16 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {roasting degree == 1 AND tray height >= 170 AND temperature <= 560})
 
 
 ## Gold Standard: dark roast
-c17 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == dark AND tray height < 175 AND 200 <= temperature <= 560})
-c18 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == dark AND tray height < 175 AND 300 <= temperature <= 660})
-c19 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == dark AND tray height < 175 AND 400 <= temperature <= 760})
-c20 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == dark AND tray height < 175 AND 300 <= temperature <= 660})
-c21 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == dark AND tray height < 175 AND temperature <= 560})
+c17 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == 2 AND tray height < 175 AND 200 <= temperature <= 560})
+c18 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == 2 AND tray height < 175 AND 300 <= temperature <= 660})
+c19 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == 2 AND tray height < 175 AND 400 <= temperature <= 760})
+c20 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == 2 AND tray height < 175 AND 300 <= temperature <= 660})
+c21 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == 2 AND tray height < 175 AND temperature <= 560})
 
-c22 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 220 <= temperature <= 580})
-c23 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 320 <= temperature <= 680})
-c24 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 420 <= temperature <= 780})
-c25 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND 320 <= temperature <= 680})
-c26 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == dark AND tray height >= 175 AND temperature <= 580})
+c22 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {roasting degree == 2 AND tray height >= 175 AND 220 <= temperature <= 580})
+c23 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {roasting degree == 2 AND tray height >= 175 AND 320 <= temperature <= 680})
+c24 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {roasting degree == 2 AND tray height >= 175 AND 420 <= temperature <= 780})
+c25 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {roasting degree == 2 AND tray height >= 175 AND 320 <= temperature <= 680})
+c26 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {roasting degree == 2 AND tray height >= 175 AND temperature <= 580})

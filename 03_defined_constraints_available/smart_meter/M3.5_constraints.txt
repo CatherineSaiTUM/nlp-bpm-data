@@ -13,6 +13,8 @@ c4 = ({Request Synchronization of Meter Settings}, {Activation of Consumption Di
 ## Correct Synchronization value for deactivation (set correct value)
 c5 = ({Request Synchronization of Meter Settings}, {Deactivation of Consumption Display}, {directly follows}, {synchronization status == 0})
 
+## The description for 'Register Logbook Entry' and 'Report Display Status' is too broad and both 'EVENT OR CS Display ON' AND 'ALARM OR CS Display OFF' can technically be accepted.
+
 ## The meter logs the correct status in the logbook for activation
 c6 = ({Register Logbook Entry}, {Report Display Status}, {directly follows}, {logbook entry status == 'CS Display ON'})
 
